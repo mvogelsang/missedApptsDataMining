@@ -85,9 +85,9 @@ def gengraphs(col, usetable=curtable):
         percentages.append(max((1.0-float(countsmade[i])/float(countstot[i]))*100.0, float(countsmiss[i])/float(countstot[i])*100.0))
     r3 = bchrt(catstot, percentages, 'g', ax2, "percent missed")
 
-
+    ax2.set_ylabel('%% missed of total')
     fig.suptitle("Appointment Distributions by " +col, fontsize=18)
-    fig.set_figwidth(15, forward=True);
+    fig.set_figwidth(12, forward=True);
     ax1.legend((r1,r2), ('Made Appointments', 'Missed Appointments'))
     plt.show()
     plt.close()
