@@ -3,3 +3,4 @@ venv
 *.arff
 otherdata
 *.pyc
+res.txt

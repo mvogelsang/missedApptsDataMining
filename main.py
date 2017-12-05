@@ -45,14 +45,13 @@ def uniqcounter(usetable=curtable):
         print ""
     mycur.close()
 
-def bchrt(cats,counts,acolor,ax):
+def bchrt(cats,counts,acolor,ax,atitle):
     width = .8
     indices = np.arange(len(cats))*1.5
-
-    bars = ax.bar(indices, counts, width=width,
-            color=acolor, tick_label = cats)
+    bars = ax.bar(indices, counts, width=width, color=acolor, tick_label = cats)
     ax.set_xticks(indices)
     ax.set_ylabel('number of instances')
+    ax.set_title(atitle)
 
     return bars
 
@@ -63,38 +62,55 @@ def gengraphs(col, usetable=curtable):
     mycur.close()
     rowprint(res, "\t")
 
-    fig, ax = plt.subplots(1,1,True,True )
+    fig, (ax1, ax2) = plt.subplots(1,2,True,False )
 
     mycur = dmexecute(dmsql.categoricalcounter(col, usetable))
     res = mycur.fetchall()
-    cats, counts = zip(*res)
+    catstot, countstot = zip(*res)
     mycur.close()
-    r1 = bchrt(cats, counts, 'b', ax)
+    r1 = bchrt(catstot, countstot, 'b', ax1, "Numeric Totals")
 
     mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'Yes'))
     res = mycur.fetchall()
-    cats, counts = zip(*res)
+    catsmiss, countsmiss = zip(*res)
     mycur.close()
-    r2 = bchrt(cats, counts, 'r', ax)
+    r2 = bchrt(catsmiss, countsmiss, 'r', ax1, "Numeric Totals")
+
+    mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'No'))
+    res = mycur.fetchall()
+    catsmade, countsmade = zip(*res)
+    mycur.close()
+    percentages = []
+    for i in range(len(countstot)):
+        percentages.append(max((1.0-float(countsmade[i])/float(countstot[i]))*100.0, float(countsmiss[i])/float(countstot[i])*100.0))
+    r3 = bchrt(catstot, percentages, 'g', ax2, "percent missed")
 
 
     fig.suptitle("Appointment Distributions by " +col, fontsize=18)
-    fig.set_figwidth(10, forward=True);
-    plt.legend((r1,r2), ('Made', 'Missed'))
+    fig.set_figwidth(15, forward=True);
+    ax1.legend((r1,r2), ('Made Appointments', 'Missed Appointments'))
     plt.show()
     plt.close()
 
-def preprocess():
+def prepnclean():
     mycur = dmexecute(dmsql.preTabCreator)
     mycur.close()
 
-def gencsv(tab):
-    
-
+def gencsv(cols='*', tab='preproc', clause="1=1"):
+    mycur = dmexecute(dmsql.csvgetter(cols, tab, clause))
+    res = mycur.fetchall()
+    mycur.close()
+    print cols
+    for row in res:
+        out = ""
+        for item in row:
+            out = out+str(item)+','
+        out = out[0:-1]
+        print out
 def main():
-    # preprocess()
-    # uniqcounter();
-
+    # prepnclean()
+    uniqcounter();
+    # gencsv(dmsql.simplecsvcols)
     db.commit()
     db.close()
 main()
