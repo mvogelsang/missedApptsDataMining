@@ -45,15 +45,16 @@ def uniqcounter(usetable=curtable):
         print ""
     mycur.close()
 
-def bchrt(atitle,cats,counts,acolor,ax):
+def bchrt(cats,counts,acolor,ax):
     width = .8
-    indices = np.arange(len(cats))
+    indices = np.arange(len(cats))*1.5
 
     bars = ax.bar(indices, counts, width=width,
             color=acolor, tick_label = cats)
     ax.set_xticks(indices)
     ax.set_ylabel('number of instances')
-    ax.set_title(atitle)
+
+    return bars
 
 
 def gengraphs(col, usetable=curtable):
@@ -62,28 +63,24 @@ def gengraphs(col, usetable=curtable):
     mycur.close()
     rowprint(res, "\t")
 
-    fig, (ax1,ax2,ax3) = plt.subplots(1,3,True,True )
+    fig, ax = plt.subplots(1,1,True,True )
 
     mycur = dmexecute(dmsql.categoricalcounter(col, usetable))
     res = mycur.fetchall()
     cats, counts = zip(*res)
     mycur.close()
-    bchrt(" Totals", cats, counts, 'b', ax1)
+    r1 = bchrt(cats, counts, 'b', ax)
 
     mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'Yes'))
     res = mycur.fetchall()
     cats, counts = zip(*res)
     mycur.close()
-    bchrt(" Missed Appointments", cats, counts, 'r', ax2)
+    r2 = bchrt(cats, counts, 'r', ax)
 
-    mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'No'))
-    res = mycur.fetchall()
-    cats, counts = zip(*res)
-    mycur.close()
-    bchrt(" Met Appointments", cats, counts, 'g',  ax3)
 
-    fig.suptitle(col+" distributions\n", fontsize=18)
-    fig.set_figwidth(14, forward=True);
+    fig.suptitle("Appointment Distributions by " +col, fontsize=18)
+    fig.set_figwidth(10, forward=True);
+    plt.legend((r1,r2), ('Made', 'Missed'))
     plt.show()
     plt.close()
 
@@ -91,10 +88,13 @@ def preprocess():
     mycur = dmexecute(dmsql.preTabCreator)
     mycur.close()
 
+def gencsv(tab):
+    
+
 def main():
     # preprocess()
+    # uniqcounter();
 
-    uniqcounter();
     db.commit()
     db.close()
 main()
