@@ -8,7 +8,7 @@ in
     buildInputs = [
       MySQL_python
       scipy
-      pandas_0_17_1
+      pandas
       cairo
       python27Full
       virtualenv
