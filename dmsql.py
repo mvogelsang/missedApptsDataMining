@@ -8,7 +8,7 @@ def listingcreator(drops, adds, base):
     return ret
 
 normstng = "PatientId, AppointmentID, Gender, ScheduledDay, AppointmentDay, Age, Neighbourhood, Scholarship, Hipertension, Diabetes, Alcoholism, Handcap, SMS_received, Noshow,"
-ppcstng = normstng + ""
+ppcstng = normstng + " dayidx, lead_time, total_past_appointments, total_past_missed," + " con_handycaps, agegroup, townsize,"
 allcols = []
 for s in ppcstng.split(",")[0:-1]:
     allcols.append(s.strip())
@@ -30,6 +30,13 @@ replacedtypes = {
                 'Handcap': 'INT',
                 'SMS_received': 'INT',
                 'Noshow': "ENUM ('No', 'Yes')",
+                'dayidx': 'INT',
+                'lead_time': 'INT',
+                'total_past_appointments': 'INT',
+                'total_past_missed': 'INT',
+                'con_handycaps': 'INT',
+                'agegroup':     "ENUM('minor', 'young', 'middle', 'advanced', 'old')",
+                'townsize':     "ENUM('small', 'medium', 'large')"
                 }
 
 ppsql = ppcstng
@@ -37,7 +44,7 @@ sqltypes.update(replacedtypes)
 for col, ctype in sqltypes.items():
     ppsql = ppsql.replace( col+',', col+' '+ctype+',')
 
-dropcols = ['PatientId', 'AppointmentID', 'ScheduledDay', 'AppointmentDay']
+dropcols = ['PatientId', 'AppointmentID', 'ScheduledDay', 'AppointmentDay', 'total_past_missed', 'total_past_appointments']
 addcols = []
 simplecsvcols = listingcreator(dropcols, addcols, ppcstng)
 
@@ -61,7 +68,87 @@ preTabCreator = [
                     'FROM ( '
                         'SELECT appts.*, hoods.idx as nbhnum FROM appts, hoods WHERE STRCMP(appts.Neighbourhood, hoods.name)=0 '
                     ') as tmp '
+                ),
+                (
+                    'DELETE FROM preproc WHERE age < 1'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET townsize=1 '
+                    'WHERE Neighbourhood IN'
+                        '(SELECT Neighbourhood from ( '
+                            'SELECT Neighbourhood, count(*) as cnt from preproc group by Neighbourhood '
+                        ') as tmp1 where tmp1.cnt<= 1885 ) '
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET townsize=2 '
+                    'WHERE Neighbourhood IN '
+                        '(SELECT Neighbourhood from '
+                            '(SELECT Neighbourhood, '
+                                'count(*) as cnt from preproc '
+                                'group by Neighbourhood '
+                            ') as tmp1 where tmp1.cnt > 1885 AND tmp1.cnt <= 2773 '
+                        ')'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET townsize=3 '
+                    'WHERE Neighbourhood IN '
+                        '(SELECT Neighbourhood from '
+                            '(SELECT Neighbourhood, '
+                                'count(*) as cnt from preproc '
+                                'group by Neighbourhood '
+                            ') as tmp1 where tmp1.cnt > 2773'
+                        ')'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET con_handycaps=Handcap '
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET con_handycaps=2 '
+                    'where Handcap > 2'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET agegroup=1 '
+                    'where age < 18'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET agegroup=2 '
+                    'where age >=18 and age < 42'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET agegroup=3 '
+                    'where age >=42 and age < 66'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET agegroup=4 '
+                    'where age >=66 and age < 90'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET agegroup=5 '
+                    'where age >=90'
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET dayidx=DAYOFWEEK(AppointmentDay) '
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET lead_time=DATEDIFF(AppointmentDay, ScheduledDay) '
+                ),
+                (
+                    'DELETE FROM preproc WHERE lead_time < 1'
                 )
+
+
                 ]
 
 # Queries

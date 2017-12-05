@@ -109,8 +109,8 @@ def gencsv(cols='*', tab='preproc', clause="1=1"):
         print out
 def main():
     # prepnclean()
-    uniqcounter();
-    # gencsv(dmsql.simplecsvcols)
+    # uniqcounter()
+    gencsv(dmsql.simplecsvcols)
     db.commit()
     db.close()
 main()
