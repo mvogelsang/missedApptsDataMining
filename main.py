@@ -40,21 +40,20 @@ def uniqcounter(usetable=curtable):
         print ("AVG:"+ str(stats[0]) +", STDDEV:"+ str(stats[1]) +", MAX:"+ str(stats[2]) +", MIN:"+ str(stats[3]))
         distcur.close()
         statcur.close()
-        if(res[0][0] < 5):
+        if(res[0][0] < 500):
             gengraphs(col)
         print ""
     mycur.close()
 
-def bchrt(atitle,cats,counts,acolor,alabel):
-    width = 0.8
+def bchrt(atitle,cats,counts,acolor,ax):
+    width = .8
     indices = np.arange(len(cats))
 
-    bars = plt.bar(indices, counts, width=width,
-            color=acolor, label=alabel)
-    plt.xticks(indices, cats)
-    plt.ylabel('number of instances')
-    plt.title(atitle)
-    plt.show()
+    bars = ax.bar(indices, counts, width=width,
+            color=acolor, tick_label = cats)
+    ax.set_xticks(indices)
+    ax.set_ylabel('number of instances')
+    ax.set_title(atitle)
 
 
 def gengraphs(col, usetable=curtable):
@@ -63,12 +62,30 @@ def gengraphs(col, usetable=curtable):
     mycur.close()
     rowprint(res, "\t")
 
+    fig, (ax1,ax2,ax3) = plt.subplots(1,3,True,True )
+
     mycur = dmexecute(dmsql.categoricalcounter(col, usetable))
     res = mycur.fetchall()
     cats, counts = zip(*res)
     mycur.close()
-    bchrt(col + " general distribution", cats, counts, 'b', 'total')
+    bchrt(" Totals", cats, counts, 'b', ax1)
+
+    mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'Yes'))
+    res = mycur.fetchall()
+    cats, counts = zip(*res)
     mycur.close()
+    bchrt(" Missed Appointments", cats, counts, 'r', ax2)
+
+    mycur = dmexecute(dmsql.categoricalcounter(col, usetable, True, 'No'))
+    res = mycur.fetchall()
+    cats, counts = zip(*res)
+    mycur.close()
+    bchrt(" Met Appointments", cats, counts, 'g',  ax3)
+
+    fig.suptitle(col+" distributions\n", fontsize=18)
+    fig.set_figwidth(14, forward=True);
+    plt.show()
+    plt.close()
 
 def preprocess():
     mycur = dmexecute(dmsql.preTabCreator)
