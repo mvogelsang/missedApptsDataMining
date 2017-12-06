@@ -4,11 +4,11 @@ def listingcreator(drops, adds, base):
     for d in drops:
         ret = ret.replace(d+',', '')
     for a in adds:
-        ret = ret + a
+        ret = ret +" "+a+","
     return ret
 
 normstng = "PatientId, AppointmentID, Gender, ScheduledDay, AppointmentDay, Age, Neighbourhood, Scholarship, Hipertension, Diabetes, Alcoholism, Handcap, SMS_received, Noshow,"
-ppcstng = normstng + " dayidx, lead_time, total_past_appointments, total_past_missed," + " con_handycaps, agegroup, townsize,"
+ppcstng = normstng + " dayidx, lead_time," + " con_handycaps, agegroup, townsize,"
 allcols = []
 for s in ppcstng.split(",")[0:-1]:
     allcols.append(s.strip())
@@ -32,8 +32,6 @@ replacedtypes = {
                 'Noshow': "ENUM ('No', 'Yes')",
                 'dayidx': 'INT',
                 'lead_time': 'INT',
-                'total_past_appointments': 'INT',
-                'total_past_missed': 'INT',
                 'con_handycaps': 'INT',
                 'agegroup':     "ENUM('minor', 'young', 'middle', 'advanced', 'old')",
                 'townsize':     "ENUM('small', 'medium', 'large')"
@@ -44,10 +42,12 @@ sqltypes.update(replacedtypes)
 for col, ctype in sqltypes.items():
     ppsql = ppsql.replace( col+',', col+' '+ctype+',')
 
-dropcols = ['PatientId', 'AppointmentID', 'ScheduledDay', 'AppointmentDay', 'total_past_missed', 'total_past_appointments']
-addcols = []
-simplecsvcols = listingcreator(dropcols, addcols, ppcstng)
+dropcols = ['PatientId', 'AppointmentID', 'ScheduledDay', 'AppointmentDay', 'Handcap', 'Age', 'Neighbourhood']
+addcols = ['Neighbourhood', 'Handcap']
+simplecsvcols = listingcreator(dropcols, [], ppcstng)
+ztestcols = listingcreator([], addcols, simplecsvcols)
 
+ztestcols = ztestcols[0:-1]
 ppsql = ppsql[0:-1]
 normstng = normstng[0:-1]
 ppcstng = ppcstng[0:-1]
@@ -151,9 +151,6 @@ preTabCreator = [
 
                 ]
 
-# Queries
-
-
 # Templates
 def csvgetter(cols, tab, clause):
     ret =   [
@@ -184,9 +181,28 @@ def statfinder(col, tab):
             )
             ]
     return ret
-
+def discretizer(col, tab, avg, std):
+        ret =   [
+                (
+                    'UPDATE preproc '
+                    'SET '+ col +'=0 '
+                    'where lead_time<='+str(float(avg))+' '
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET '+ col +'=1 '
+                    'where lead_time>'+str(float(avg))+' '
+                    'and lead_time<='+str(float(avg)+std)+' '
+                ),
+                (
+                    'UPDATE preproc '
+                    'SET '+ col +'=2 '
+                    'where lead_time>'+str(float(avg)+std)+' '
+                )
+                ]
+        return ret
 def normalizer(col, tab, avg, std):
-    ret = ["UPDATE "+ tab +" SET  "+ col +" = ( "+ col +" - "+ avg +" )/( "+ std +" );"]
+    ret = ["UPDATE "+ tab +" SET  "+ col +" = ( "+ col +" - "+ str(avg) +" )/( "+ str(std) +" );"]
     return ret
 
 def categoricalcounter(col, tab, specific=False, nshw='No'):
@@ -205,5 +221,26 @@ def categoricalcounter(col, tab, specific=False, nshw='No'):
 def numdistinct(col, tab):
     ret =   [
             "select count(*) from (select distinct "+ col +" from "+ tab +") as tmp;"
+            ]
+    return ret
+def prevfinds1(apid):
+    ret =   [
+            "select PatientId, AppointmentDay from preproc where AppointmentID="+str(apid)
+            ]
+    return ret
+def prevfinds2(patid,tstamp):
+    ret =   [
+            "select count(*) from (select tmp.df from (select DATEDIFF(AppointmentDay, '"+str(tstamp)+"') as df from preproc where PatientId="+str(patid)+") as tmp where tmp.df < 0)as tmp2"
+            ]
+    return ret
+def puttot(appid,tot):
+    ret =   [
+            "UPDATE preproc set total_past_appointments="+str(tot)+" where AppointmentID="+str(appid)
+            ]
+    return ret
+
+def criteriaSuccess(critstrng):
+    ret =   [
+            "select count(*) from preproc where "+critstrng+" "
             ]
     return ret
