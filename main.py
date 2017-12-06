@@ -198,6 +198,7 @@ def extractRule(line, istert=False):
                 raw = raw + ' '
             if i in escapes:
                 builder= builder + raw + i
+                n += 1
                 continue
             sep = i.split("=")
             tok = sep[-1]
@@ -238,6 +239,8 @@ def procfinal(rows):
             rows[i].append(res)
         i+=1
     for ln in rows:
+        if ln[-1] > .01:
+            continue
         output = ''
         for item in ln:
             output = output + str(item) + ','
@@ -305,9 +308,9 @@ def main():
     # criteriazstat(" lead_time = 2 and not con_handycaps = 1 and not agegroup = 'middle' ")
     # print dmsql.simplecsvcols
     # eatdat()
-    # proctert()
+    proctert()
     # procapr()
-    superIterate()
+    # superIterate()
     db.commit()
     db.close()
 main()

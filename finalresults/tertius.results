@@ -1,0 +1,673 @@
+Tertiusrule,predicts_nshw,pct_in_rule_noshow,pct_out_rule_noshow,pvalue
+Hipertension=0 and con_handycaps=0 and not agegroup='middle',Yes,0.321780381584,0.240656597978,3.72216705662e-123
+Hipertension=0 and not con_handycaps=1 and not agegroup='middle',Yes,0.321633794067,0.240687311662,1.38909550534e-122
+Hipertension=0 and not con_handycaps=2 and not agegroup='middle',Yes,0.321208542972,0.240379632029,5.52350465799e-122
+Hipertension=0 and not agegroup='middle',Yes,0.321064233352,0.240410203154,2.03167551948e-121
+Hipertension=0 and not dayidx=7 and not agegroup='middle',Yes,0.321069633884,0.240429535427,2.19270086225e-121
+Hipertension=0 and Diabetes=0 and not agegroup='middle',Yes,0.320781573499,0.241727587534,5.25541163912e-117
+Hipertension=0 and Alcoholism=0 and not agegroup='middle',Yes,0.319603415609,0.243458257452,9.0954432834e-109
+Hipertension=0 and not con_handycaps=2 and not agegroup='advanced',Yes,0.307227852816,0.226497316257,1.60468197617e-97
+Hipertension=0 and not agegroup='advanced',Yes,0.307168171049,0.226392961877,1.99044219977e-97
+Hipertension=0 and not dayidx=7 and not agegroup='advanced',Yes,0.30715446836,0.226490489637,3.28708221665e-97
+Hipertension=0 and con_handycaps=0 and not agegroup='advanced',Yes,0.307620633599,0.22784483648,5.04765287534e-97
+Hipertension=0 and not con_handycaps=1 and not agegroup='advanced',Yes,0.307559797244,0.227747878286,6.37885751895e-97
+Hipertension=0 and Diabetes=0 and not agegroup='advanced',Yes,0.307540787903,0.228791905151,4.00970737224e-95
+Hipertension=0 and not dayidx=5 and not agegroup='middle',Yes,0.323914625273,0.251058516991,1.69845713838e-100
+Diabetes=0 and not con_handycaps=1 and not agegroup='middle',Yes,0.311332007952,0.244634876076,1.31837937723e-80
+Hipertension=0 and Alcoholism=0 and not agegroup='advanced',Yes,0.305514515034,0.234626684227,7.54657206209e-78
+Diabetes=0 and con_handycaps=0 and not agegroup='middle',Yes,0.311293345829,0.244879917489,5.1210953527e-80
+Diabetes=0 and not agegroup='middle',Yes,0.31063839605,0.244289220313,3.82910219804e-79
+Diabetes=0 and not dayidx=7 and not agegroup='middle',Yes,0.31064644926,0.244311106079,3.9759715038e-79
+Diabetes=0 and not con_handycaps=2 and not agegroup='middle',Yes,0.31059905704,0.244540662651,1.49565433147e-78
+not con_handycaps=1 and not agegroup='middle',Yes,0.308581808515,0.243214777607,1.11261611861e-74
+not dayidx=7 and not con_handycaps=1 and not agegroup='middle',Yes,0.308587257618,0.243249807716,1.22898374202e-74
+con_handycaps=0 and not agegroup='middle',Yes,0.308585253252,0.243440703964,2.65956339079e-74
+not dayidx=7 and con_handycaps=0 and not agegroup='middle',Yes,0.308590714302,0.243475454802,2.9349034416e-74
+not dayidx=7 and not agegroup='middle',Yes,0.307673850449,0.243037024683,4.10122379138e-72
+not con_handycaps=2 and not agegroup='middle',Yes,0.307663739241,0.243244366841,9.72732113257e-72
+not dayidx=7 and not con_handycaps=2 and not agegroup='middle',Yes,0.30767549611,0.243270189432,9.85652881224e-72
+Diabetes=0 and con_handycaps=0 and not agegroup='advanced',Yes,0.300309050773,0.221843520412,2.96016336103e-72
+Diabetes=0 and not con_handycaps=1 and not agegroup='advanced',Yes,0.300245162883,0.221689132587,4.02138631335e-72
+Diabetes=0 and not con_handycaps=2 and not agegroup='advanced',Yes,0.299876192303,0.219293325855,6.11178501356e-73
+Diabetes=0 and not agegroup='advanced',Yes,0.299813650534,0.219115158353,8.02176752341e-73
+Diabetes=0 and not dayidx=7 and not agegroup='advanced',Yes,0.299813585603,0.21924531338,1.10602452001e-72
+Hipertension=0 and not dayidx=5 and not agegroup='advanced',Yes,0.309144898622,0.247286879725,2.88276399284e-69
+Diabetes=0 and Alcoholism=0 and not agegroup='middle',Yes,0.309296447128,0.247915283005,1.39540283537e-68
+Alcoholism=0 and not con_handycaps=1 and not agegroup='middle',Yes,0.307351618705,0.247080637526,1.70066876384e-64
+Hipertension=0 and not dayidx=6 and not agegroup='middle',Yes,0.319178765032,0.256798303737,6.23349695006e-74
+Alcoholism=0 and con_handycaps=0 and not agegroup='middle',Yes,0.307331906746,0.247316478591,4.69485085562e-64
+Hipertension=0 and not dayidx=4 and not agegroup='advanced',Yes,0.311632679236,0.25240735337,2.3167022148e-66
+Alcoholism=0 and not agegroup='middle',Yes,0.306558356759,0.246825429023,1.26198389863e-62
+Alcoholism=0 and not dayidx=7 and not agegroup='middle',Yes,0.306563039724,0.24685802319,1.3766833442e-62
+Alcoholism=0 and not con_handycaps=2 and not agegroup='middle',Yes,0.306537455094,0.247068812161,3.49769830576e-62
+con_handycaps=0 and not agegroup='advanced',Yes,0.297845649483,0.211810396335,7.99441772547e-70
+not con_handycaps=1 and not agegroup='advanced',Yes,0.297798784154,0.211314308682,5.06099839504e-70
+not dayidx=7 and con_handycaps=0 and not agegroup='advanced',Yes,0.297833179955,0.21206399682,1.60339946672e-69
+not dayidx=7 and not con_handycaps=1 and not agegroup='advanced',Yes,0.297786316933,0.211571242354,1.02120117501e-69
+not con_handycaps=2 and not agegroup='advanced',Yes,0.297324933206,0.20730911464,6.09260943602e-71
+Diabetes=0 and not dayidx=5 and not agegroup='middle',Yes,0.313305658728,0.254787426231,1.51292541645e-65
+not dayidx=7 and not con_handycaps=2 and not agegroup='advanced',Yes,0.297317362898,0.207573784722,1.15530010558e-70
+not dayidx=7 and not agegroup='advanced',Yes,0.297271918553,0.206991014683,6.51517856824e-71
+SMS_received=0 and not lead_time=0 and not agegroup='advanced',Yes,0.38943546498,0.270990373634,4.18387311161e-114
+agegroup='advanced' and not townsize='medium',No,0.200341491178,0.295,2.44190390563e-62
+Scholarship=0 and Hipertension=0 and not agegroup='middle',Yes,0.315021185211,0.25668645745,2.74631951161e-65
+Hipertension=0 and not dayidx=3 and not agegroup='middle',Yes,0.32011982027,0.259306739059,1.83299618666e-69
+not dayidx=5 and not con_handycaps=1 and not agegroup='middle',Yes,0.311176347243,0.254514458896,3.39277953577e-61
+not dayidx=5 and con_handycaps=0 and not agegroup='middle',Yes,0.311134453782,0.254693209021,9.32281845987e-61
+not dayidx=5 and not agegroup='middle',Yes,0.31030834731,0.254497473691,3.19183147947e-59
+not dayidx=5 and not con_handycaps=2 and not agegroup='middle',Yes,0.310265491301,0.254679723872,8.71463108744e-59
+Hipertension=0 and con_handycaps=0 and not agegroup='old',Yes,0.299801921546,0.236510848251,3.60714986268e-54
+Hipertension=0 and not con_handycaps=1 and not agegroup='old',Yes,0.29972636172,0.236501079914,6.65152576386e-54
+Hipertension=0 and con_handycaps=0,Yes,0.299711709048,0.236446933062,6.5907332548e-54
+Hipertension=0 and not dayidx=7 and con_handycaps=0,Yes,0.299702386454,0.236539317272,8.93670283292e-54
+Hipertension=0 and not con_handycaps=1,Yes,0.299636390483,0.236436833024,1.21307817959e-53
+Hipertension=0 and not con_handycaps=2 and not agegroup='old',Yes,0.299394072528,0.235445036511,8.71403680131e-54
+Hipertension=0 and not dayidx=7 and not con_handycaps=1,Yes,0.299627058563,0.236529622063,1.64469196474e-53
+Hipertension=0 and not con_handycaps=2,Yes,0.299329423158,0.235247367375,9.48829309781e-54
+Hipertension=0 and not dayidx=2 and not agegroup='middle',Yes,0.317232082678,0.259884668098,1.85383775165e-62
+Hipertension=0 and not dayidx=7 and not con_handycaps=2,Yes,0.299325571619,0.235329143235,1.19175815677e-53
+Hipertension=0 and not agegroup='old',Yes,0.299319852269,0.235430157262,1.59223478467e-53
+Hipertension=0 and not dayidx=7 and not agegroup='old',Yes,0.299315995464,0.235511551155,1.99766599076e-53
+Hipertension=0 and not dayidx=7,Yes,0.299251551661,0.235313662945,2.17434617732e-53
+Hipertension=0 and Diabetes=0 and con_handycaps=0,Yes,0.299990593547,0.239189108139,5.89002374996e-52
+Hipertension=0 and Diabetes=0 and not con_handycaps=1,Yes,0.299919204825,0.239176250979,1.00676605122e-51
+Hipertension=0 and Diabetes=0 and not con_handycaps=2,Yes,0.299646511628,0.238089314591,6.24167799695e-52
+Hipertension=0 and Diabetes=0 and not agegroup='old',Yes,0.299663048942,0.238160263174,6.48579113425e-52
+Hipertension=0 and not lead_time=2 and not agegroup='middle',Yes,0.313715696069,0.258618762921,2.05996653491e-58
+Hipertension=0 and Diabetes=0,Yes,0.299576334176,0.238071446415,1.05862677837e-51
+Hipertension=0 and Diabetes=0 and not dayidx=7,Yes,0.299566922548,0.238160603981,1.41861746697e-51
+Diabetes=0 and not dayidx=4 and not agegroup='middle',Yes,0.314458560194,0.259410356832,3.4468265656e-58
+SMS_received=0 and not lead_time=0 and not agegroup='old',Yes,0.37262942081,0.271319894129,7.80836542766e-94
+SMS_received=0 and not lead_time=0 and not con_handycaps=1,Yes,0.373072544758,0.27140363999,9.37311393545e-94
+SMS_received=0 and not lead_time=0,Yes,0.371993477375,0.271327645961,4.10374859662e-93
+SMS_received=0 and not lead_time=0 and con_handycaps=0,Yes,0.372833869461,0.271485770298,5.71109573257e-93
+SMS_received=0 and not lead_time=0 and not con_handycaps=2,Yes,0.37175556918,0.271410012991,2.47454413698e-92
+Diabetes=0 and Alcoholism=0 and not agegroup='advanced',Yes,0.298237775236,0.23400115307,7.63486369646e-51
+Hipertension=0 and not agegroup='advanced' and not townsize='small',Yes,0.316622518722,0.261204107111,3.15030660755e-58
+Diabetes=0 and not dayidx=5 and not agegroup='advanced',Yes,0.302121675834,0.247973917094,2.11825140343e-48
+not dayidx=4 and not con_handycaps=1 and not agegroup='middle',Yes,0.312490928619,0.259165041409,7.41168851725e-55
+Alcoholism=0 and not dayidx=5 and not agegroup='middle',Yes,0.309073773496,0.256971229845,5.19559509742e-52
+not dayidx=4 and con_handycaps=0 and not agegroup='middle',Yes,0.312460008144,0.259295830277,1.56345145732e-54
+Diabetes=0 and SMS_received=0 and not lead_time=0,Yes,0.373825720764,0.271963280334,7.35712388468e-91
+Hipertension=0 and not dayidx=6 and not agegroup='advanced',Yes,0.305758466939,0.25455465587,1.29053994048e-48
+not dayidx=4 and not agegroup='middle',Yes,0.311486177747,0.259307135471,1.31501885571e-52
+Alcoholism=0 and SMS_received=0 and not lead_time=0,Yes,0.370219860373,0.271969583769,3.44124090424e-87
+not dayidx=4 and not con_handycaps=2 and not agegroup='middle',Yes,0.311453832728,0.259439777517,2.75031338889e-52
+Diabetes=0 and not dayidx=4 and not agegroup='advanced',Yes,0.304403376683,0.253557965997,6.77201840834e-47
+SMS_received=0 and not lead_time=0 and not agegroup='middle',Yes,0.39279819955,0.274147839716,1.73138810106e-92
+not dayidx=5 and not con_handycaps=1 and not agegroup='advanced',Yes,0.300170371251,0.247131782946,7.36634787976e-44
+Hipertension=0 and lead_time=1 and not agegroup='advanced',Yes,0.352170481452,0.270688267609,2.15627394557e-75
+not dayidx=5 and con_handycaps=0 and not agegroup='advanced',Yes,0.300174589318,0.247322899506,1.16173765551e-43
+not dayidx=5 and not agegroup='advanced',Yes,0.299482169028,0.247038009972,5.50610910203e-42
+not dayidx=5 and not con_handycaps=2 and not agegroup='advanced',Yes,0.299485332968,0.247236610242,8.7043867578e-42
+agegroup='advanced' and not townsize='large',No,0.206209922376,0.29282338581,2.7535035757e-45
+not dayidx=4 and con_handycaps=0 and not agegroup='advanced',Yes,0.302422540156,0.253627968338,4.39090794432e-42
+Alcoholism=0 and con_handycaps=0 and not agegroup='advanced',Yes,0.296266387175,0.231444052636,2.51029313566e-45
+Alcoholism=0 and not dayidx=4 and not agegroup='middle',Yes,0.310382830626,0.261174606767,5.60132840109e-47
+not dayidx=4 and not con_handycaps=1 and not agegroup='advanced',Yes,0.302344434706,0.253638167686,6.93906110448e-42
+Alcoholism=0 and not con_handycaps=1 and not agegroup='advanced',Yes,0.296206701323,0.231262455593,3.1261728044e-45
+SMS_received=0 and lead_time=0 and not agegroup='young',No,0.246135686583,0.298921920941,2.77469169e-41
+not dayidx=4 and not con_handycaps=2 and not agegroup='advanced',Yes,0.301948403002,0.253169387322,1.60817183871e-41
+not dayidx=4 and not agegroup='advanced',Yes,0.301872125413,0.253178551686,2.5219063824e-41
+Diabetes=0 and not agegroup='advanced' and not townsize='small',Yes,0.310613179843,0.261544051878,1.05675007864e-46
+Alcoholism=0 and not con_handycaps=2 and not agegroup='advanced',Yes,0.295801138674,0.229097299297,2.93008547453e-45
+Hipertension=0 and not dayidx=3 and not agegroup='advanced',Yes,0.306195050058,0.25871234495,3.45435577191e-43
+Alcoholism=0 and not agegroup='advanced',Yes,0.295742952861,0.228883087824,3.52845257349e-45
+Hipertension=0 and lead_time=1 and not agegroup='middle',Yes,0.362612841059,0.272790941987,8.24681990527e-75
+Alcoholism=0 and not dayidx=7 and not agegroup='advanced',Yes,0.295724586168,0.22910850549,6.27877164225e-45
+Hipertension=0 and not dayidx=5 and con_handycaps=0,Yes,0.301702258008,0.25472558448,4.88297417078e-39
+Hipertension=0 and Alcoholism=0 and con_handycaps=0,Yes,0.297995780591,0.245758661888,6.51196581182e-39
+Hipertension=0 and not dayidx=5 and not con_handycaps=1,Yes,0.301632394397,0.254747164167,7.50527143851e-39
+Hipertension=0 and Alcoholism=0 and not con_handycaps=1,Yes,0.297924780343,0.245787611681,1.12588249775e-38
+Hipertension=0 and Alcoholism=0 and not con_handycaps=2,Yes,0.297675371605,0.244889109156,9.37085161616e-39
+Diabetes=0 and not dayidx=6 and not agegroup='middle',Yes,0.308349677781,0.261556037261,1.23314278106e-42
+Hipertension=0 and Alcoholism=0 and not agegroup='old',Yes,0.297668089548,0.245040479575,1.35488473816e-38
+Hipertension=0 and Alcoholism=0,Yes,0.297605536847,0.24491572859,1.61376512205e-38
+Hipertension=0 and not dayidx=4 and not con_handycaps=1,Yes,0.304183796856,0.258304656226,9.79345353862e-40
+Hipertension=0 and Diabetes=0 and not dayidx=4,Yes,0.304342537404,0.258468822895,7.94529657718e-40
+Hipertension=0 and not dayidx=4 and con_handycaps=0,Yes,0.304205709305,0.258351736951,1.02887873396e-39
+Hipertension=0 and not dayidx=5 and not agegroup='old',Yes,0.301294820717,0.254567755033,2.74578577757e-38
+Hipertension=0 and not dayidx=4,Yes,0.303853140836,0.258002286368,1.76620468223e-39
+Hipertension=0 and Alcoholism=0 and not dayidx=7,Yes,0.29759556333,0.244998135951,2.05486816837e-38
+Hipertension=0 and not dayidx=4 and not con_handycaps=2,Yes,0.303874410702,0.258050711458,1.86199234755e-39
+Hipertension=0 and not dayidx=4 and not agegroup='old',Yes,0.30388963403,0.258085197322,1.9330835652e-39
+Hipertension=0 and not dayidx=5 and not con_handycaps=2,Yes,0.301235583061,0.254626296845,4.41128546738e-38
+Hipertension=0 and not dayidx=5,Yes,0.301167062892,0.254648102555,6.73301128291e-38
+Hipertension=0 and Diabetes=0 and not dayidx=5,Yes,0.301618051734,0.255419415646,5.24663681705e-38
+Hipertension=0 and Diabetes=0 and Alcoholism=0,Yes,0.297896112258,0.246930262617,1.57784327105e-37
+not agegroup='advanced' and not townsize='small',Yes,0.307827249186,0.26180156273,2.72277633254e-41
+Hipertension=0 and lead_time=1 and not agegroup='old',Yes,0.343845523,0.271594434104,2.86777202546e-62
+not dayidx=7 and not agegroup='advanced' and not townsize='small',Yes,0.307786599805,0.261868977102,4.1626035039e-41
+Hipertension=0 and lead_time=1,Yes,0.343705799151,0.271602092384,4.31996866771e-62
+Hipertension=0 and lead_time=1 and not con_handycaps=2,Yes,0.343743012596,0.271613692365,4.44016041387e-62
+not con_handycaps=2 and not agegroup='advanced' and not townsize='small',Yes,0.307786702365,0.26192158248,5.09238480389e-41
+Hipertension=0 and lead_time=1 and not con_handycaps=1,Yes,0.344050480769,0.271675277797,3.96851782238e-62
+Hipertension=0 and lead_time=1 and con_handycaps=0,Yes,0.344088447653,0.271686832237,4.07449503902e-62
+Scholarship=0 and SMS_received=0 and not lead_time=0,Yes,0.364357541899,0.273875620093,4.43116279945e-70
+Hipertension=0 and Diabetes=0 and lead_time=1,Yes,0.344181831911,0.271732791376,5.19188496516e-62
+not con_handycaps=1 and not agegroup='advanced' and not townsize='small',Yes,0.307946086172,0.26228029333,1.06882436678e-40
+con_handycaps=0 and not agegroup='advanced' and not townsize='small',Yes,0.307905216483,0.262397954737,1.98178011041e-40
+SMS_received=0 and not dayidx=3 and not lead_time=0,Yes,0.369167599851,0.274586913952,8.43375066443e-70
+not dayidx=6 and not con_handycaps=1 and not agegroup='middle',Yes,0.306291256904,0.261853085929,1.71114616133e-38
+Diabetes=0 and not dayidx=3 and not agegroup='middle',Yes,0.309177442529,0.263728720483,2.888456006e-40
+not dayidx=6 and con_handycaps=0 and not agegroup='middle',Yes,0.30629049676,0.26195559351,2.4785283953e-38
+Hipertension=0 and Alcoholism=0 and lead_time=1,Yes,0.34262555867,0.272149328059,1.22171196455e-58
+Diabetes=0 and not dayidx=2 and not agegroup='middle',Yes,0.307927886282,0.263402998637,8.81361741766e-39
+not dayidx=6 and not agegroup='middle',Yes,0.305440661788,0.2620204285,9.67464905564e-37
+agegroup='advanced' and townsize='small',No,0.194285714286,0.290793900997,5.2549971092e-38
+SMS_received=0 and lead_time=1 and not agegroup='advanced',Yes,0.387085635359,0.276282091324,1.68099944809e-71
+not dayidx=6 and not con_handycaps=2 and not agegroup='middle',Yes,0.305438218963,0.262124460186,1.39724400041e-36
+not dayidx=3 and con_handycaps=0 and not agegroup='middle',Yes,0.307570523892,0.263594391245,7.09813603616e-38
+not dayidx=3 and not con_handycaps=1 and not agegroup='middle',Yes,0.307506679307,0.263571204203,8.26787965452e-38
+SMS_received=0 and lead_time=0 and not agegroup='minor',No,0.253770902607,0.298877274487,1.69337477496e-33
+SMS_received=0 and not lead_time=0 and not townsize='small',Yes,0.38074984247,0.275945179584,1.49337672184e-69
+Hipertension=0 and not agegroup='old' and not townsize='small',Yes,0.309122496876,0.264512817742,8.63621190708e-39
+Hipertension=0 and Diabetes=0 and not townsize='small',Yes,0.309459041731,0.264768664283,7.37468761374e-39
+Hipertension=0 and not townsize='small',Yes,0.308951002159,0.26458090882,2.11166942233e-38
+Hipertension=0 and not con_handycaps=2 and not townsize='small',Yes,0.308950269513,0.264631937498,2.60226552511e-38
+Hipertension=0 and not dayidx=7 and not townsize='small',Yes,0.30892107345,0.264623126454,2.78869789599e-38
+Hipertension=0 and not dayidx=2 and not agegroup='advanced',Yes,0.303216453301,0.260684494181,1.30198091112e-34
+Hipertension=0 and not con_handycaps=1 and not townsize='small',Yes,0.309107098993,0.264814814815,3.11990656836e-38
+Scholarship=0 and Hipertension=0 and not agegroup='advanced',Yes,0.30043181868,0.257280951791,2.9517695325e-33
+Hipertension=0 and con_handycaps=0 and not townsize='small',Yes,0.309106560905,0.264865154683,3.83650193086e-38
+not dayidx=3 and not con_handycaps=2 and not agegroup='middle',Yes,0.306593344294,0.263907380608,8.80207877009e-36
+not dayidx=3 and not agegroup='middle',Yes,0.306532378985,0.263884458107,1.01584124391e-35
+Hipertension=0 and not lead_time=2 and not agegroup='advanced',Yes,0.300858823795,0.258668761045,1.4698853539e-32
+SMS_received=0 and not lead_time=2 and agegroup='advanced',No,0.207093096897,0.29117696763,3.73334426413e-35
+not dayidx=4 and lead_time=1 and not agegroup='advanced',Yes,0.346679601376,0.273607003026,5.17839263019e-56
+SMS_received=0 and lead_time=0 and agegroup='middle',No,0.232493925337,0.293365583967,5.46491238619e-33
+Hipertension=0 and not dayidx=5 and lead_time=1,Yes,0.346373626374,0.273621542094,1.12524864561e-55
+not dayidx=5 and lead_time=1 and not agegroup='advanced',Yes,0.342342342342,0.273154923688,4.3307685126e-54
+SMS_received=0 and not lead_time=0 and not townsize='large',Yes,0.381538980763,0.276564113799,1.11659824098e-65
+SMS_received=0 and not con_handycaps=2 and agegroup='advanced',No,0.21197535618,0.291379150292,3.49917402593e-34
+Hipertension=0 and not agegroup='advanced' and not townsize='large',Yes,0.306928681315,0.264578681064,3.0275862503e-35
+SMS_received=0 and lead_time=0 and agegroup='advanced',No,0.199492385787,0.290614375911,8.86021321356e-35
+Alcoholism=0 and not dayidx=5 and not agegroup='advanced',Yes,0.297954349266,0.254409193105,1.0365140314e-30
+SMS_received=0 and con_handycaps=0 and agegroup='advanced',No,0.211095533747,0.291200740341,1.40643071542e-33
+SMS_received=0 and not dayidx=7 and agegroup='advanced',No,0.212941628264,0.291318477252,1.99703879477e-33
+SMS_received=0 and agegroup='advanced',No,0.213080168776,0.291314575789,2.41065942522e-33
+not dayidx=2 and not con_handycaps=1 and not agegroup='middle',Yes,0.305490848586,0.264096185738,1.01466726628e-33
+not dayidx=2 and con_handycaps=0 and not agegroup='middle',Yes,0.305520824651,0.264148712947,1.089374123e-33
+Scholarship=0 and Diabetes=0 and not agegroup='middle',Yes,0.30383595821,0.26293460925,1.14181697228e-32
+Alcoholism=0 and not agegroup='advanced' and not townsize='small',Yes,0.306139925213,0.264664463285,7.02889212587e-34
+Alcoholism=0 and not dayidx=4 and not agegroup='advanced',Yes,0.300028838262,0.258959957978,1.41363745601e-30
+Hipertension=0 and not dayidx=4 and lead_time=1,Yes,0.349289237018,0.274379276144,1.20612509612e-54
+SMS_received=0 and not con_handycaps=1 and agegroup='advanced',No,0.212248154798,0.291136311039,9.89382093635e-33
+Alcoholism=0 and not dayidx=6 and not agegroup='middle',Yes,0.304379424511,0.263977721333,4.14002254051e-32
+SMS_received=0 and not lead_time=1 and agegroup='advanced',No,0.207380575051,0.290746204767,1.63013339568e-32
+Hipertension=0 and Alcoholism=0 and not dayidx=5,Yes,0.299649725729,0.259136484551,1.23204675504e-29
+not dayidx=5 and lead_time=1 and not agegroup='middle',Yes,0.352182123374,0.274927026668,2.59035938525e-54
+not dayidx=5 and not agegroup='advanced' and not townsize='small',Yes,0.309624537282,0.267006974629,4.51479131388e-35
+Gender='F' and Hipertension=0 and not agegroup='advanced',Yes,0.306498088797,0.265508961974,4.14920172583e-33
+Hipertension=0 and Alcoholism=0 and not dayidx=4,Yes,0.301876675603,0.262101534829,2.19145408713e-30
+Gender='F' and Hipertension=0 and not lead_time=0,Yes,0.33537419866,0.273089641612,6.33753291039e-48
+not dayidx=2 and not agegroup='middle',Yes,0.30456977506,0.26439932522,8.19311647852e-32
+not dayidx=2 and not con_handycaps=2 and not agegroup='middle',Yes,0.304597543965,0.26445212686,8.81536127964e-32
+agegroup='advanced' and not townsize='small',No,0.215835553864,0.291138848453,3.1854978346e-31
+Alcoholism=0 and not dayidx=3 and not agegroup='middle',Yes,0.305530033307,0.265514285714,1.18219275229e-31
+SMS_received=0 and lead_time=1 and not agegroup='old',Yes,0.370381679389,0.276683839565,1.66711459164e-57
+SMS_received=0 and lead_time=1 and not con_handycaps=1,Yes,0.371005094951,0.276728070591,1.24565789573e-57
+SMS_received=0 and lead_time=1 and con_handycaps=0,Yes,0.371092541009,0.276741470189,1.33029467757e-57
+SMS_received=0 and lead_time=0 and not townsize='medium',No,0.253345378578,0.296390812978,6.082103063e-28
+SMS_received=0 and lead_time=1,Yes,0.369858855669,0.27668052942,3.49972885946e-57
+SMS_received=0 and lead_time=1 and not con_handycaps=2,Yes,0.369942196532,0.276693964018,3.7500583683e-57
+Hipertension=0 and lead_time=1 and agegroup='young',Yes,0.381241938456,0.277402524806,1.71920818462e-59
+SMS_received=0 and not lead_time=0 and agegroup='young',Yes,0.42152755398,0.279145747471,4.72671740741e-66
+Hipertension=0 and Alcoholism=0 and not townsize='small',Yes,0.30726153275,0.266696883248,2.59741749971e-32
+Gender='F' and not dayidx=5 and agegroup='young',Yes,0.333475147132,0.2733243607,2.51217948857e-45
+SMS_received=0 and agegroup='advanced' and not townsize='medium',No,0.204907665065,0.29030740038,7.63362095643e-31
+Scholarship=0 and not con_handycaps=1 and not agegroup='middle',Yes,0.30184927421,0.263211244763,5.62361132763e-29
+Diabetes=0 and SMS_received=0 and lead_time=1,Yes,0.372138019994,0.277025115519,1.89328072965e-56
+Scholarship=0 and con_handycaps=0 and not agegroup='middle',Yes,0.301818181818,0.263360064694,9.64121953686e-29
+SMS_received=0 and not dayidx=2 and lead_time=0,No,0.257313317937,0.29740641057,7.7207536678e-27
+Gender='F' and not con_handycaps=1 and not agegroup='middle',Yes,0.308995562727,0.268013972056,1.97931322786e-32
+SMS_received=0 and not con_handycaps=1 and not agegroup='advanced',Yes,0.309169093248,0.268104432422,1.69896645302e-32
+Gender='F' and not agegroup='middle',Yes,0.30859737505,0.267878757313,3.82706119415e-32
+Gender='F' and not dayidx=7 and not agegroup='middle',Yes,0.308607997878,0.267885051676,3.79992653145e-32
+SMS_received=0 and not lead_time=1 and agegroup='middle',No,0.240354330709,0.293155460213,1.24241090207e-27
+not dayidx=4 and lead_time=1 and not agegroup='middle',Yes,0.353712296984,0.275862632336,9.43902949614e-51
+not dayidx=6 and lead_time=1 and not agegroup='advanced',Yes,0.33910267182,0.274453613231,6.56199430051e-46
+SMS_received=0 and not dayidx=6 and agegroup='advanced',No,0.207954824454,0.29027450384,1.503458222e-29
+Diabetes=0 and not dayidx=6 and not agegroup='advanced',Yes,0.297957464729,0.258930969648,1.73148209271e-26
+Gender='F' and con_handycaps=0 and not agegroup='middle',Yes,0.308852746069,0.268171737559,5.74520911228e-32
+Diabetes=0 and not lead_time=2 and not agegroup='middle',Yes,0.30286951242,0.264844899365,1.50554741583e-28
+Gender='F' and not con_handycaps=2 and not agegroup='middle',Yes,0.308455894559,0.268038381142,1.10632542089e-31
+Hipertension=0 and not dayidx=6 and lead_time=1,Yes,0.342791340396,0.274922422125,6.13901526956e-47
+Alcoholism=0 and SMS_received=0 and lead_time=1,Yes,0.367873232872,0.277105582811,2.89208997605e-53
+Scholarship=0 and not agegroup='middle',Yes,0.300970636415,0.263559995852,4.17791117522e-27
+Scholarship=0 and not dayidx=7 and not agegroup='middle',Yes,0.30097348596,0.263577943615,4.33644329354e-27
+SMS_received=0 and not agegroup='advanced',Yes,0.308202071331,0.268323324707,7.24747858341e-31
+Scholarship=0 and not con_handycaps=2 and not agegroup='middle',Yes,0.300938288542,0.263711262022,7.07095997401e-27
+SMS_received=0 and not dayidx=7 and not agegroup='advanced',Yes,0.308192024519,0.268342920298,8.06173175484e-31
+not dayidx=5 and lead_time=1 and agegroup='young',Yes,0.383606557377,0.278099402599,8.21476829224e-56
+SMS_received=0 and not con_handycaps=2 and not agegroup='advanced',Yes,0.308167078134,0.268404677071,1.10506082107e-30
+not dayidx=3 and lead_time=1 and not agegroup='advanced',Yes,0.339459930314,0.274850894632,1.33422519655e-44
+SMS_received=0 and not lead_time=1 and not agegroup='young',No,0.257575003732,0.296748376199,3.1516834815e-25
+Diabetes=0 and not agegroup='middle' and not townsize='large',Yes,0.30803586308,0.268474576271,2.13415975472e-30
+Gender='F' and not dayidx=4 and agegroup='young',Yes,0.33517655423,0.274466931379,1.2555904396e-42
+SMS_received=0 and not dayidx=2 and agegroup='advanced',No,0.211588696272,0.29021442614,6.56242473947e-28
+Alcoholism=0 and not dayidx=2 and not agegroup='middle',Yes,0.30347045127,0.266236074899,1.33379445006e-27
+Scholarship=0 and Alcoholism=0 and not agegroup='middle',Yes,0.300837172438,0.264412303932,6.63923214228e-26
+Scholarship=0 and Hipertension=0 and lead_time=1,Yes,0.336613844871,0.27487119195,2.89538189866e-42
+Hipertension=0 and lead_time=1 and not townsize='small',Yes,0.352354637194,0.276421045786,5.47411776976e-47
+Diabetes=0 and not dayidx=3 and not agegroup='advanced',Yes,0.298813425246,0.26240081304,1.01466708041e-24
+Diabetes=0 and not dayidx=4 and lead_time=1,Yes,0.336394756617,0.274930424712,7.25619897695e-42
+SMS_received=0 and not dayidx=3 and agegroup='advanced',No,0.214119832791,0.290162082965,9.92342578023e-27
+not dayidx=3 and lead_time=1 and not agegroup='middle',Yes,0.349226217569,0.27629423329,1.77698670873e-45
+Hipertension=0 and not agegroup='middle' and townsize='medium',Yes,0.339371433747,0.275349992345,1.60507190579e-42
+not dayidx=2 and lead_time=1 and not agegroup='advanced',Yes,0.337134527995,0.275113900112,9.68813883943e-42
+not dayidx=6 and lead_time=1 and not agegroup='middle',Yes,0.347715736041,0.27619063292,6.36338109544e-45
+Diabetes=0 and not dayidx=5 and lead_time=1,Yes,0.332571602681,0.274567901235,3.95473181041e-40
+Hipertension=0 and not dayidx=3 and lead_time=1,Yes,0.34134707117,0.275604084521,5.91461272163e-43
+SMS_received=0 and con_handycaps=0 and agegroup='young',Yes,0.341036082962,0.275574077511,7.52795872587e-43
+not dayidx=4 and lead_time=1 and not agegroup='old',Yes,0.333833517612,0.274761221705,1.85056857272e-40
+not dayidx=4 and lead_time=1 and not con_handycaps=1,Yes,0.334157626037,0.274820219228,1.66915005352e-40
+not dayidx=4 and lead_time=1 and con_handycaps=0,Yes,0.334158811312,0.274838597103,1.94282759183e-40
+not dayidx=4 and lead_time=1,Yes,0.333516785911,0.274772802886,3.65183908511e-40
+SMS_received=0 and not con_handycaps=1 and agegroup='young',Yes,0.340735141264,0.275601316567,1.62846625265e-42
+not dayidx=4 and lead_time=1 and not con_handycaps=2,Yes,0.333517045902,0.274791254573,4.2518021857e-40
+SMS_received=0 and not dayidx=5 and agegroup='advanced',No,0.214602285981,0.290108481714,2.82567057616e-26
+not con_handycaps=1 and not agegroup='middle' and not townsize='large',Yes,0.306199942564,0.268596222297,7.18102836691e-28
+not dayidx=7 and agegroup='minor',Yes,0.329818311364,0.27431756672,1.02770614307e-38
+not lead_time=2 and con_handycaps=0 and not agegroup='middle',Yes,0.300983174539,0.265314187854,4.37232775495e-25
+con_handycaps=0 and not agegroup='middle' and not townsize='large',Yes,0.306228816269,0.268636198579,7.61820452876e-28
+not lead_time=2 and not con_handycaps=1 and not agegroup='middle',Yes,0.300938219154,0.265279841506,4.66497677129e-25
+not con_handycaps=2 and agegroup='minor',Yes,0.329813044099,0.274339771384,1.22992413757e-38
+Alcoholism=0 and agegroup='minor',Yes,0.329696969697,0.274358009426,1.76527298904e-38
+Alcoholism=0 and not con_handycaps=2 and agegroup='minor',Yes,0.32969151671,0.274380194898,2.11201651863e-38
+Diabetes=0 and agegroup='minor',Yes,0.329690736376,0.274383362889,2.16680088731e-38
+SMS_received=0 and not lead_time=0 and not townsize='medium',Yes,0.356734693878,0.277089535517,2.16340380865e-46
+not con_handycaps=1 and agegroup='minor',Yes,0.329752184501,0.274406615831,2.30067309475e-38
+Diabetes=0 and not con_handycaps=2 and agegroup='minor',Yes,0.329685264664,0.274405529294,2.5920138303e-38
+Hipertension=0 and agegroup='minor',Yes,0.32959737293,0.274399856682,2.93532988345e-38
+con_handycaps=0 and agegroup='minor',Yes,0.329746790044,0.27442875803,2.75183217956e-38
+Hipertension=0 and not con_handycaps=2 and agegroup='minor',Yes,0.329591763781,0.274422019663,3.51089327043e-38
+Diabetes=0 and Alcoholism=0 and agegroup='minor',Yes,0.329569008648,0.274423769185,3.71526685214e-38
+SMS_received=0 and lead_time=1 and not agegroup='middle',Yes,0.383025505717,0.278676470588,2.73292180218e-51
+Alcoholism=0 and not con_handycaps=1 and agegroup='minor',Yes,0.32963016055,0.274446989763,3.9458290046e-38
+SMS_received=0 and not con_handycaps=2 and agegroup='young',Yes,0.33958391641,0.275660220948,1.99209657945e-41
+Hipertension=0 and Alcoholism=0 and agegroup='minor',Yes,0.329475639377,0.27444026509,5.02819792965e-38
+Alcoholism=0 and con_handycaps=0 and agegroup='minor',Yes,0.329624578279,0.274469112833,4.71825330712e-38
+Diabetes=0 and not con_handycaps=1 and agegroup='minor',Yes,0.329623779437,0.274472271914,4.84025598722e-38
+not dayidx=5 and lead_time=1 and not agegroup='old',Yes,0.329618979152,0.274491219285,5.64112509826e-38
+Diabetes=0 and con_handycaps=0 and agegroup='minor',Yes,0.329618177896,0.274494375995,5.78687970654e-38
+Hipertension=0 and not con_handycaps=1 and agegroup='minor',Yes,0.329529960531,0.2744887553,6.55164116614e-38
+Hipertension=0 and Diabetes=0 and agegroup='minor',Yes,0.329399141631,0.27447715227,7.68581880588e-38
+SMS_received=0 and not dayidx=7 and agegroup='young',Yes,0.3393239594,0.27568582985,3.91780386945e-41
+Hipertension=0 and con_handycaps=0 and agegroup='minor',Yes,0.32952422021,0.274510855957,7.83192248069e-38
+SMS_received=0 and agegroup='young',Yes,0.339290700922,0.275687568757,4.21082175214e-41
+not dayidx=7 and not agegroup='middle' and not townsize='large',Yes,0.305470981512,0.268692881035,8.38045026646e-27
+not agegroup='middle' and not townsize='large',Yes,0.305455343978,0.268688572106,8.63942099496e-27
+not dayidx=5 and lead_time=1,Yes,0.329228125448,0.274533672264,1.62650420912e-37
+not dayidx=5 and lead_time=1 and not con_handycaps=1,Yes,0.329703832753,0.274602155142,1.1184494465e-37
+not con_handycaps=2 and not agegroup='middle' and not townsize='large',Yes,0.305482207972,0.268728956229,9.18887813316e-27
+SMS_received=0 and not lead_time=0 and agegroup='minor',Yes,0.434782608696,0.2805449946,1.01040683186e-56
+not dayidx=5 and lead_time=1 and not con_handycaps=2,Yes,0.329148432456,0.274579971014,2.67718287949e-37
+not dayidx=5 and lead_time=1 and con_handycaps=0,Yes,0.329623972653,0.274648264056,1.84408445858e-37
+Gender='F' and not dayidx=4 and not lead_time=0,Yes,0.331007281553,0.274874655745,8.25857698285e-38
+Gender='F' and Alcoholism=0 and not agegroup='middle',Yes,0.306821227553,0.269534767384,3.73335017164e-27
+Gender='F' and not dayidx=3 and agegroup='young',Yes,0.332282471627,0.275078753938,4.17547506939e-38
+not dayidx=6 and not agegroup='advanced' and not townsize='small',Yes,0.306882400431,0.269600997506,4.03000941885e-27
+Hipertension=0 and not dayidx=2 and lead_time=1,Yes,0.338702125667,0.275862651947,5.64308990265e-40
+SMS_received=0 and not lead_time=0 and not agegroup='minor',Yes,0.353515367366,0.277186049127,6.94981127645e-44
+Hipertension=0 and not dayidx=6 and con_handycaps=0,Yes,0.298040971678,0.263164169614,1.15931449953e-22
+Diabetes=0 and SMS_received=0 and agegroup='young',Yes,0.339087546239,0.275938264316,5.99346785859e-40
+not dayidx=4 and lead_time=1 and agegroup='young',Yes,0.383207504004,0.278946483951,2.06399861179e-49
+Hipertension=0 and not dayidx=6 and not con_handycaps=2,Yes,0.297786631253,0.262901655307,1.76828447013e-22
+Hipertension=0 and not dayidx=6 and not con_handycaps=1,Yes,0.297980814383,0.263193531684,1.5579907593e-22
+Hipertension=0 and not dayidx=6 and not agegroup='old',Yes,0.297778565259,0.262957409734,2.05472300089e-22
+not lead_time=2 and not con_handycaps=2 and not agegroup='middle',Yes,0.30010969286,0.265715439494,2.52848722798e-23
+not dayidx=7 and not lead_time=2 and not agegroup='middle',Yes,0.300077166256,0.265688754004,2.64148526071e-23
+not lead_time=2 and not agegroup='middle',Yes,0.300067179219,0.265681411749,2.68310118658e-23
+Hipertension=0 and not dayidx=6,Yes,0.297727473694,0.262931034483,2.37069311401e-22
+Hipertension=0 and Diabetes=0 and not dayidx=6,Yes,0.298000584756,0.26351271437,2.88269838655e-22
+Alcoholism=0 and not dayidx=4 and lead_time=1,Yes,0.332259363673,0.275355755665,4.05373231329e-37
+Scholarship=0 and not dayidx=5 and not agegroup='middle',Yes,0.303124185656,0.268198690884,1.66942168528e-24
+not dayidx=2 and lead_time=1 and not agegroup='middle',Yes,0.345315659402,0.276729146834,7.52700239922e-41
+SMS_received=0 and lead_time=0 and not agegroup='old',No,0.263806589239,0.297793952464,1.18216115986e-21
+Scholarship=0 and SMS_received=0 and lead_time=1,Yes,0.364112086428,0.278182899349,1.37416839328e-44
+not dayidx=3 and con_handycaps=0 and not agegroup='advanced',Yes,0.297174822749,0.262707217278,1.30004630111e-21
+not dayidx=6 and not con_handycaps=1 and not agegroup='advanced',Yes,0.295894012945,0.260202079655,2.20439757299e-21
+SMS_received=0 and lead_time=0 and not con_handycaps=2,No,0.263966590497,0.29775457859,1.92497657089e-21
+not dayidx=6 and con_handycaps=0 and not agegroup='advanced',Yes,0.295879922217,0.260361681329,3.12510961914e-21
+not dayidx=5 and not lead_time=2 and not agegroup='middle',Yes,0.303323690891,0.268650904033,3.71287239872e-24
+SMS_received=0 and not dayidx=7 and lead_time=0,No,0.264038090741,0.297737250929,2.38957683653e-21
+not dayidx=3 and not con_handycaps=1 and not agegroup='advanced',Yes,0.297070857959,0.262808309007,2.39827709291e-21
+not dayidx=3 and not con_handycaps=2 and not agegroup='advanced',Yes,0.296835578362,0.262425188655,2.84108841763e-21
+SMS_received=0 and not dayidx=3 and lead_time=1,Yes,0.368265682657,0.27850577568,7.46422720196e-45
+Alcoholism=0 and not dayidx=5 and lead_time=1,Yes,0.328159320545,0.275093466263,7.46902850788e-35
+SMS_received=0 and lead_time=0,No,0.264087137745,0.297722819109,2.79715474094e-21
+Hipertension=0 and not agegroup='advanced' and townsize='medium',Yes,0.327290965107,0.2750264001,2.17671083928e-34
+Hipertension=0 and not dayidx=3 and con_handycaps=0,Yes,0.298972536969,0.265511855743,7.65111526172e-22
+not dayidx=3 and not agegroup='advanced',Yes,0.296733561059,0.262528275622,5.21710748024e-21
+not dayidx=6 and not agegroup='advanced',Yes,0.295488991704,0.259957325747,8.47770545229e-21
+not dayidx=3 and lead_time=1 and agegroup='young',Yes,0.378366247756,0.2791409166,1.05557766761e-45
+not dayidx=6 and not con_handycaps=2 and not agegroup='advanced',Yes,0.295474516696,0.260123506783,1.20498513076e-20
+Hipertension=0 and not dayidx=3 and not con_handycaps=1,Yes,0.298832386296,0.265656673424,1.73487893879e-21
+Hipertension=0 and not dayidx=3 and not con_handycaps=2,Yes,0.298620836993,0.265477780586,2.38524268237e-21
+not dayidx=6 and lead_time=1 and agegroup='young',Yes,0.376337044313,0.279093291646,4.57171389543e-45
+Gender='F' and not dayidx=2 and agegroup='young',Yes,0.328071481757,0.275328912373,4.92000001979e-34
+Alcoholism=0 and SMS_received=0 and agegroup='young',Yes,0.336850109305,0.276358608596,9.72073719896e-37
+SMS_received=0 and lead_time=1 and not townsize='small',Yes,0.381076594736,0.279328161436,1.19875923034e-45
+agegroup='advanced' and townsize='large',No,0.20767778477,0.289182295574,2.81033210241e-23
+Hipertension=0 and not dayidx=3 and not agegroup='old',Yes,0.298577636359,0.265560165975,3.33870281482e-21
+Hipertension=0 and lead_time=2 and not agegroup='middle',Yes,0.371285140562,0.278882926227,5.23932211258e-44
+not dayidx=5 and not con_handycaps=2 and agegroup='minor',Yes,0.332262699687,0.275928065245,4.05895476652e-35
+not dayidx=5 and agegroup='minor',Yes,0.332207967589,0.275922731977,4.25452242854e-35
+SMS_received=0 and not dayidx=4 and agegroup='advanced',No,0.217314930991,0.289597983081,1.0128930775e-22
+SMS_received=0 and not lead_time=0 and townsize='medium',Yes,0.417546709992,0.280646023216,2.19335739715e-49
+Hipertension=0 and not dayidx=3,Yes,0.29848269322,0.265625,5.35864836543e-21
+SMS_received=0 and agegroup='advanced' and not townsize='large',No,0.212225078549,0.289339183138,7.11876087397e-23
+Scholarship=0 and not dayidx=4 and not agegroup='middle',Yes,0.304654442877,0.269983433423,6.42579894239e-24
+Alcoholism=0 and not dayidx=5 and agegroup='minor',Yes,0.332122645494,0.275948886858,6.04089829246e-35
+Diabetes=0 and not dayidx=5 and agegroup='minor',Yes,0.332177003131,0.275957179058,5.9066815606e-35
+Hipertension=0 and not dayidx=5 and agegroup='minor',Yes,0.332008792695,0.275982758621,9.55359897943e-35
+not dayidx=5 and con_handycaps=0 and agegroup='minor',Yes,0.332144070676,0.276009370263,9.48503541465e-35
+not dayidx=5 and not con_handycaps=1 and agegroup='minor',Yes,0.332089235728,0.276004066231,9.93953873412e-35
+Diabetes=0 and not agegroup='middle' and townsize='medium',Yes,0.330372422785,0.275900411766,7.33725997909e-34
+Hipertension=0 and lead_time=1 and not townsize='large',Yes,0.343263061412,0.277217675941,2.13436881924e-37
+Diabetes=0 and lead_time=2 and not agegroup='middle',Yes,0.364518491395,0.278765186589,2.27027534163e-41
+Diabetes=0 and not dayidx=6 and lead_time=1,Yes,0.329113924051,0.275900605934,5.85844732691e-33
+Diabetes=0 and SMS_received=1 and agegroup='young',Yes,0.331973969631,0.276280808878,1.10155796323e-33
+SMS_received=0 and lead_time=0 and con_handycaps=0,No,0.26470706664,0.29693507879,1.76843304328e-19
+SMS_received=0 and agegroup='young' and not townsize='small',Yes,0.355565848387,0.278306577639,2.76781548701e-39
+lead_time=2 and not con_handycaps=1 and not agegroup='middle',Yes,0.362564743704,0.278752588395,1.83248421889e-40
+SMS_received=0 and lead_time=1 and not townsize='large',Yes,0.376984126984,0.279491639204,1.18944034498e-42
+Gender='F' and not dayidx=6 and agegroup='young',Yes,0.326072607261,0.275621518694,1.25574703553e-31
+SMS_received=0 and lead_time=0 and not con_handycaps=1,No,0.264828805658,0.296902812389,2.52742454803e-19
+Scholarship=1 and Hipertension=0 and not agegroup='advanced',Yes,0.363536316948,0.278861687585,2.5798942581e-40
+lead_time=2 and con_handycaps=0 and not agegroup='middle',Yes,0.362254025045,0.278791369594,4.38249625417e-40
+lead_time=2 and not agegroup='middle',Yes,0.361488273673,0.278753682373,6.45711876852e-40
+not agegroup='middle' and townsize='medium',Yes,0.327417991857,0.275862068966,7.27811213836e-32
+Alcoholism=0 and not agegroup='middle' and not townsize='large',Yes,0.303946612172,0.270449233965,1.89286148157e-22
+not dayidx=6 and lead_time=1 and not agegroup='old',Yes,0.326688731759,0.275780945979,1.36909343707e-31
+not dayidx=7 and not agegroup='middle' and townsize='medium',Yes,0.327411167513,0.275877239292,8.21412529957e-32
+Hipertension=0 and Diabetes=0 and not dayidx=3,Yes,0.298381642512,0.266673701984,7.90046515048e-20
+lead_time=2 and not con_handycaps=2 and not agegroup='middle',Yes,0.361179795125,0.278792506935,1.53013708563e-39
+not dayidx=6 and lead_time=1,Yes,0.326341024873,0.275814447592,3.09937789337e-31
+not dayidx=6 and lead_time=1 and not con_handycaps=1,Yes,0.326693529993,0.275906484341,3.31447725079e-31
+not con_handycaps=2 and not agegroup='middle' and townsize='medium',Yes,0.327097767513,0.275959745241,2.4937786597e-31
+Alcoholism=0 and lead_time=2 and not agegroup='middle',Yes,0.36113086771,0.278845554794,3.23017296527e-39
+not dayidx=6 and lead_time=1 and not con_handycaps=2,Yes,0.326228893058,0.275861458684,5.19806048637e-31
+Scholarship=1 and Hipertension=0 and not con_handycaps=2,Yes,0.362292389122,0.278932073536,2.69535140384e-39
+not con_handycaps=1 and not agegroup='middle' and townsize='medium',Yes,0.327454346808,0.276037464482,2.43875152084e-31
+Hipertension=0 and lead_time=1 and not townsize='medium',Yes,0.336763806807,0.277085346752,6.8428187157e-34
+not dayidx=6 and lead_time=1 and con_handycaps=0,Yes,0.326580350343,0.275953296413,5.56654682351e-31
+Scholarship=1 and Hipertension=0 and not dayidx=7,Yes,0.362078395624,0.278942542312,3.93750255107e-39
+Scholarship=1 and Hipertension=0 and con_handycaps=0,Yes,0.362679955703,0.2789784195,3.22561183101e-39
+Gender='F' and lead_time=1 and not agegroup='middle',Yes,0.347518676628,0.278011294359,2.4242311596e-36
+Scholarship=1 and Hipertension=0,Yes,0.362012395188,0.278946877623,4.49008073597e-39
+Scholarship=1 and Hipertension=0 and not con_handycaps=1,Yes,0.362396313364,0.278993214602,5.38800621503e-39
+con_handycaps=0 and not agegroup='middle' and townsize='medium',Yes,0.327129115508,0.276134710121,8.3232291902e-31
+Scholarship=1 and con_handycaps=0 and not agegroup='advanced',Yes,0.353877359963,0.278560052981,4.40034836763e-37
+Scholarship=1 and Hipertension=0 and Diabetes=0,Yes,0.362052992403,0.279058217318,1.86191749483e-38
+not dayidx=2 and lead_time=1 and agegroup='young',Yes,0.370833333333,0.279509100938,8.63970136238e-40
+SMS_received=0 and not lead_time=1 and not agegroup='minor',No,0.264408819358,0.295998797277,2.98231493676e-18
+SMS_received=0 and not con_handycaps=1 and agegroup='minor',Yes,0.350611531741,0.278367217281,2.46921443062e-36
+not dayidx=5 and not agegroup='middle' and townsize='medium',Yes,0.332058636074,0.276777976039,5.21638044993e-32
+Scholarship=1 and not con_handycaps=1 and not agegroup='advanced',Yes,0.35364713217,0.278575033117,6.90081129151e-37
+not dayidx=3 and lead_time=1 and not agegroup='old',Yes,0.326807581312,0.27617660989,1.88301410671e-30
+SMS_received=0 and not dayidx=6 and lead_time=0,No,0.261766503667,0.294744601163,4.1599975856e-18
+SMS_received=0 and agegroup='minor',Yes,0.350166401389,0.27836673713,4.23474438641e-36
+Alcoholism=0 and SMS_received=0 and agegroup='minor',Yes,0.350173711639,0.278369357915,4.32140981306e-36
+Scholarship=1 and not con_handycaps=2 and not agegroup='advanced',Yes,0.352959309494,0.278560151563,1.31414915267e-36
+SMS_received=0 and con_handycaps=0 and agegroup='minor',Yes,0.350444800933,0.278397992727,4.27313041653e-36
+not dayidx=4 and lead_time=1 and not townsize='small',Yes,0.34503600823,0.278008766841,5.74272336229e-35
+Scholarship=1 and not dayidx=7 and not agegroup='advanced',Yes,0.352787188174,0.278570751887,1.82394491871e-36
+not dayidx=5 and lead_time=1 and not townsize='small',Yes,0.340893230984,0.277690674506,5.67285778151e-34
+Scholarship=1 and not agegroup='advanced',Yes,0.35273287144,0.278575150396,2.04730337842e-36
+SMS_received=0 and not con_handycaps=2 and agegroup='minor',Yes,0.35,0.278397533689,7.31026831577e-36
+SMS_received=0 and agegroup='advanced' and townsize='small',No,0.197321428571,0.288394389537,6.02955243782e-21
+not dayidx=3 and lead_time=1,Yes,0.326444996892,0.27621321722,4.36155865773e-30
+Alcoholism=0 and not lead_time=2 and not agegroup='middle',Yes,0.298799140437,0.268060648102,4.98497021283e-19
+not dayidx=3 and lead_time=1 and not con_handycaps=2,Yes,0.326432129514,0.276237276237,5.27686820246e-30
+not dayidx=3 and lead_time=1 and not con_handycaps=1,Yes,0.326768552072,0.276297826163,4.75269669568e-30
+Scholarship=0 and Diabetes=0 and lead_time=1,Yes,0.323829359379,0.275919433314,4.07218665538e-29
+Gender='F' and Hipertension=0 and lead_time=1,Yes,0.338682899834,0.277564851216,3.46797278189e-33
+Diabetes=0 and not townsize='small',Yes,0.299420965756,0.268658602066,3.23984637403e-19
+Diabetes=0 and SMS_received=0 and agegroup='minor',Yes,0.349731533885,0.278437167326,1.57236206392e-35
+not dayidx=3 and lead_time=1 and con_handycaps=0,Yes,0.326756116811,0.27632177473,5.74829755793e-30
+Scholarship=1 and Diabetes=0 and not agegroup='advanced',Yes,0.354571984436,0.278777882501,2.57119389397e-36
+Diabetes=0 and not dayidx=7 and not townsize='small',Yes,0.299394447794,0.268709952337,3.96152776538e-19
+Diabetes=0 and not agegroup='old' and not townsize='small',Yes,0.299447513812,0.268778678735,4.01048067848e-19
+Diabetes=0 and not dayidx=3 and lead_time=1,Yes,0.328077272352,0.276531231049,3.32954914318e-30
+SMS_received=0 and not dayidx=2 and agegroup='middle',No,0.248517685545,0.291493188555,2.61272124407e-18
+Diabetes=0 and not agegroup='advanced' and not townsize='large',Yes,0.298806706867,0.268304668305,8.5626771626e-19
+Hipertension=0 and Diabetes=0 and townsize='medium',Yes,0.32278392382,0.275879451266,1.76353139515e-28
+SMS_received=0 and lead_time=0 and townsize='small',No,0.250965961362,0.291834865497,4.35661051325e-18
+Diabetes=0 and not con_handycaps=1 and not townsize='small',Yes,0.299569652534,0.268984588615,4.65783151224e-19
+SMS_received=0 and agegroup='middle' and not townsize='medium',No,0.246587603491,0.291180817868,2.86262637952e-18
+Scholarship=1 and not dayidx=7 and con_handycaps=0,Yes,0.351297709924,0.27865924966,2.92300949396e-35
+not dayidx=5 and not lead_time=1 and agegroup='young',Yes,0.323052870949,0.27598823445,2.2876026792e-28
+Scholarship=1 and con_handycaps=0,Yes,0.351244084873,0.27866365346,3.27216806499e-35
+Diabetes=0 and not dayidx=2 and lead_time=1,Yes,0.327215138472,0.276536555681,1.30754871209e-29
+Alcoholism=0 and not agegroup='middle' and townsize='medium',Yes,0.325981542312,0.276392833351,3.20733152989e-29
+not dayidx=6 and agegroup='minor',Yes,0.329343394917,0.276797200638,3.53488615617e-30
+Diabetes=0 and not con_handycaps=2 and not townsize='small',Yes,0.299270456096,0.268898556207,8.91468549415e-19
+Scholarship=1 and not dayidx=7 and not con_handycaps=1,Yes,0.351075186823,0.278674274154,4.4978618903e-35
+not dayidx=6 and not con_handycaps=2 and agegroup='minor',Yes,0.329338196978,0.276811743321,3.97678792748e-30
+Scholarship=1 and not con_handycaps=1,Yes,0.351021652943,0.278678678679,5.03311486035e-35
+lead_time=2 and not agegroup='advanced',Yes,0.344498233678,0.278218219828,9.65093916385e-34
+Alcoholism=0 and not dayidx=6 and agegroup='minor',Yes,0.329283110571,0.276815422083,4.43955362867e-30
+Hipertension=0 and not con_handycaps=1 and townsize='medium',Yes,0.32230656731,0.275937911266,5.63547673928e-28
+Hipertension=0 and con_handycaps=0 and townsize='medium',Yes,0.322337680452,0.275946584008,5.65794342643e-28
+not dayidx=4 and not lead_time=1 and agegroup='young',Yes,0.326126410479,0.276458752515,4.05850071359e-29
+lead_time=2 and not con_handycaps=2 and not agegroup='advanced',Yes,0.344421162913,0.278235142784,1.26202866164e-33
+Scholarship=1 and not dayidx=7 and not con_handycaps=2,Yes,0.350361663653,0.278658690974,8.7155519644e-35
+lead_time=2 and not con_handycaps=1 and not agegroup='advanced',Yes,0.344741014799,0.278268551237,1.19124877368e-33
+Scholarship=1 and not con_handycaps=2,Yes,0.350308874491,0.278663100758,9.74095770247e-35
+not dayidx=4 and agegroup='minor',Yes,0.33141638067,0.27708435653,1.54706681686e-30
+Hipertension=0 and not dayidx=6 and agegroup='minor',Yes,0.32918984701,0.276850010287,6.62331725132e-30
+Diabetes=0 and not dayidx=6 and agegroup='minor',Yes,0.329188766194,0.276852915459,6.78088811541e-30
+Alcoholism=0 and not dayidx=6 and lead_time=1,Yes,0.325103511731,0.276370936498,1.09258553739e-28
+lead_time=2 and con_handycaps=0 and not agegroup='advanced',Yes,0.344663404312,0.278285448151,1.55846283045e-33
+Scholarship=1 and not dayidx=7,Yes,0.350143007677,0.278673735855,1.33222054362e-34
+not dayidx=6 and not con_handycaps=1 and agegroup='minor',Yes,0.329234257806,0.276875364107,7.50755761143e-30
+not dayidx=4 and not con_handycaps=2 and agegroup='minor',Yes,0.331351602415,0.277110881601,2.0957760274e-30
+Alcoholism=0 and SMS_received=1 and agegroup='young',Yes,0.329256573775,0.276888028639,7.99212168652e-30
+not dayidx=4 and lead_time=2 and not agegroup='advanced',Yes,0.355132310804,0.27900461695,2.04648357959e-35
+not dayidx=6 and con_handycaps=0 and agegroup='minor',Yes,0.329228888307,0.276889871011,8.44313598808e-30
+Diabetes=0 and con_handycaps=0 and not townsize='small',Yes,0.299417289732,0.269220034114,1.27156804655e-18
+Scholarship=1 and Diabetes=0 and con_handycaps=0,Yes,0.352998065764,0.27888846976,5.71552016223e-35
+Hipertension=0 and con_handycaps=0 and not townsize='large',Yes,0.300236604036,0.269828628735,6.00306826207e-19
+Scholarship=1 and not dayidx=5 and not agegroup='advanced',Yes,0.358384643245,0.279211893136,7.37624696433e-36
+Alcoholism=0 and not dayidx=4 and agegroup='minor',Yes,0.331198366286,0.277131487596,3.07525368078e-30
+not dayidx=4 and not con_handycaps=1 and agegroup='minor',Yes,0.331344396793,0.277147981456,2.83998582714e-30
+Hipertension=0 and not dayidx=4 and agegroup='minor',Yes,0.331195985503,0.277142905514,3.37652162225e-30
+Scholarship=1 and Diabetes=0 and not con_handycaps=1,Yes,0.352818035427,0.278899053727,7.92639727832e-35
+Gender='F' and lead_time=1 and not agegroup='advanced',Yes,0.333733373337,0.277407277407,7.9625395729e-31
+Hipertension=0 and not agegroup='advanced' and not townsize='medium',Yes,0.299601250135,0.269442406456,1.30548486819e-18
+Scholarship=1 and Diabetes=0 and not con_handycaps=2,Yes,0.352285395764,0.278871422052,1.05421772027e-34
+Scholarship=1 and Diabetes=0 and not agegroup='middle',Yes,0.36443987667,0.279559133661,1.21084415197e-36
+SMS_received=0 and not dayidx=3 and lead_time=0,No,0.263888888889,0.295000412848,4.84769386051e-17
+Diabetes=0 and lead_time=2 and not agegroup='advanced',Yes,0.345489182202,0.278413546952,2.10803270376e-33
+Scholarship=1 and Hipertension=0 and not dayidx=5,Yes,0.366516805823,0.279662967908,6.22070329354e-37
+not dayidx=4 and con_handycaps=0 and agegroup='minor',Yes,0.331279178338,0.27717446463,3.84449275539e-30
+Scholarship=1 and con_handycaps=0 and not agegroup='middle',Yes,0.36398858075,0.279542233997,1.5256737484e-36
+Scholarship=1 and not dayidx=5 and con_handycaps=0,Yes,0.35775862069,0.279209461562,1.40571530735e-35
+Scholarship=1 and Diabetes=0 and not dayidx=7,Yes,0.352164226607,0.2788776281,1.29941835582e-34
+Diabetes=0 and not dayidx=4 and agegroup='minor',Yes,0.331102435397,0.277162688336,4.51280122967e-30
+Scholarship=1 and Diabetes=0,Yes,0.352108194113,0.278882016902,1.45640521398e-34
+Scholarship=1 and not con_handycaps=1 and not agegroup='middle',Yes,0.363747454175,0.279552666441,2.24649292003e-36
+Hipertension=0 and lead_time=1 and not agegroup='minor',Yes,0.334321340965,0.277513157018,8.57499041806e-31
+Scholarship=1 and not dayidx=5 and not con_handycaps=1,Yes,0.357488789238,0.279224316374,2.26133612548e-35
+Hipertension=0 and not con_handycaps=2 and not townsize='large',Yes,0.299884691412,0.269758112801,1.30688952897e-18
+SMS_received=0 and not lead_time=0 and not agegroup='young',Yes,0.349083320912,0.278711639918,6.9845131299e-34
+Hipertension=0 and not con_handycaps=1 and not townsize='large',Yes,0.300111203781,0.269921436588,1.06724454683e-18
+SMS_received=0 and not dayidx=3 and agegroup='young',Yes,0.337423312883,0.27782067923,1.90834049966e-31
+Diabetes=0 and not dayidx=2 and not agegroup='advanced',Yes,0.295873112971,0.265682810227,4.69931342186e-17
+Scholarship=1 and not con_handycaps=2 and not agegroup='middle',Yes,0.363067608476,0.279546190249,4.12075457683e-36
+not dayidx=4 and not lead_time=2 and not agegroup='middle',Yes,0.303226439149,0.271631368351,4.6492078145e-20
+Gender='F' and not dayidx=6 and not lead_time=0,Yes,0.322671075331,0.276217898276,1.86657714245e-27
+Gender='F' and Scholarship=0 and agegroup='young',Yes,0.323041071949,0.276276383343,1.51030805073e-27
+Scholarship=1 and not dayidx=7 and not agegroup='middle',Yes,0.362903225806,0.279552321638,5.28891667775e-36
+Hipertension=0 and lead_time=2 and not agegroup='advanced',Yes,0.348882265276,0.278731898983,1.10154544839e-33
+Scholarship=1 and not agegroup='middle',Yes,0.362830074582,0.279556631261,6.03535085946e-36
+not dayidx=2 and lead_time=1 and not agegroup='old',Yes,0.324621415943,0.276509618261,5.94464067486e-28
+not dayidx=4 and not agegroup='advanced' and townsize='medium',Yes,0.324533804006,0.276511083332,6.87493574661e-28
+not dayidx=4 and lead_time=2 and not agegroup='middle',Yes,0.368587570621,0.279849548186,1.13205420207e-36
+Diabetes=0 and not agegroup='middle' and not townsize='medium',Yes,0.302845005149,0.271545051089,8.94680207688e-20
+not dayidx=2 and lead_time=1 and not con_handycaps=1,Yes,0.324827425735,0.276560990603,6.12713227214e-28
+Hipertension=0 and not townsize='large',Yes,0.299761441224,0.269852213795,2.30812126208e-18
+SMS_received=0 and not lead_time=2 and agegroup='middle',No,0.252365930599,0.291726967803,3.79448684018e-17
+Hipertension=0 and not agegroup='middle' and townsize='large',Yes,0.326570841889,0.276793922259,2.18929696492e-28
+Hipertension=0 and not dayidx=7 and not townsize='large',Yes,0.299755849999,0.269872659176,2.46501210545e-18
+Scholarship=1 and not dayidx=5 and not con_handycaps=2,Yes,0.356319801454,0.27924657641,1.04438138846e-34
+Scholarship=1 and Hipertension=0 and not agegroup='middle',Yes,0.366769095698,0.279798382155,3.21820253995e-36
+not dayidx=2 and lead_time=1,Yes,0.324229209701,0.276547386225,1.40382605555e-27
+Scholarship=1 and not dayidx=5,Yes,0.356055240793,0.279261452166,1.66216225081e-34
+not dayidx=6 and lead_time=1 and not townsize='small',Yes,0.340048543689,0.278171072287,1.61561881046e-31
+not dayidx=2 and lead_time=1 and con_handycaps=0,Yes,0.324679362612,0.276618155645,1.13274203166e-27
+Hipertension=0 and not agegroup='old' and not townsize='large',Yes,0.299711736445,0.26994581325,3.32703353289e-18
+Alcoholism=0 and not dayidx=3 and lead_time=1,Yes,0.325296411236,0.276732854823,9.70443197125e-28
+not dayidx=2 and lead_time=1 and not con_handycaps=2,Yes,0.324081883002,0.276604737167,2.58138661919e-27
+Scholarship=0 and Alcoholism=0 and agegroup='minor',Yes,0.325776044206,0.276850596294,1.0676874071e-27
+Gender='F' and Scholarship=1 and Hipertension=0,Yes,0.366822951552,0.279897167516,1.21871028291e-35
+Scholarship=0 and agegroup='minor',Yes,0.325724961417,0.276857276979,1.20673500555e-27
+SMS_received=0 and lead_time=2 and not agegroup='middle',Yes,0.413793103448,0.28146091477,3.21374204773e-40
+Scholarship=0 and not con_handycaps=2 and agegroup='minor',Yes,0.325740318907,0.276870133482,1.28972603254e-27
+Hipertension=0 and not dayidx=5 and townsize='medium',Yes,0.325727324586,0.276890734402,1.51716853644e-27
+Hipertension=0 and Diabetes=0 and not townsize='large',Yes,0.299904889784,0.270334507042,5.23153229321e-18
+Scholarship=1 and Diabetes=0 and not dayidx=5,Yes,0.35770381451,0.279482009926,4.43127625505e-34
+Scholarship=0 and not con_handycaps=1 and agegroup='minor',Yes,0.325611745514,0.276924680378,2.2778068789e-27
+Scholarship=0 and con_handycaps=0 and agegroup='minor',Yes,0.325626991259,0.276937503256,2.43412982042e-27
+Alcoholism=0 and lead_time=2 and not agegroup='advanced',Yes,0.342834310069,0.278562259307,2.31964151081e-31
+Scholarship=0 and Diabetes=0 and agegroup='minor',Yes,0.325517016773,0.276926285059,2.64870048207e-27
+Gender='F' and not dayidx=3 and not lead_time=0,Yes,0.323233849641,0.276641987525,1.20531459685e-26
+Scholarship=0 and Hipertension=0 and agegroup='minor',Yes,0.325469779549,0.27692708786,2.8556351705e-27
+Hipertension=0 and Alcoholism=0 and not dayidx=3,Yes,0.297252229392,0.268339836198,9.41720057718e-17
+Scholarship=1 and not dayidx=5 and not agegroup='middle',Yes,0.369132290185,0.28009449779,2.2784449736e-35
+SMS_received=0 and lead_time=2 and not agegroup='advanced',Yes,0.39439184268,0.281014281029,4.89139278581e-38
+not dayidx=4 and not agegroup='middle' and townsize='medium',Yes,0.33209740455,0.277698875503,8.08765164731e-29
+not dayidx=7 and agegroup='minor' and not townsize='small',Yes,0.338735034466,0.278318361247,3.26612773783e-30
+Diabetes=0 and agegroup='minor' and not townsize='small',Yes,0.338783914729,0.278324563113,3.25539447406e-30
+Gender='F' and Scholarship=1 and not agegroup='advanced',Yes,0.356417359187,0.279508794809,2.32008605837e-33
+Scholarship=0 and Alcoholism=0 and lead_time=1,Yes,0.320270456741,0.276358116167,2.00829451108e-25
+not dayidx=3 and lead_time=2 and not agegroup='middle',Yes,0.366827253957,0.280056209809,1.12753634282e-34
+Alcoholism=0 and agegroup='minor' and not townsize='small',Yes,0.33853788429,0.27835168762,5.65117097765e-30
+not con_handycaps=1 and agegroup='minor' and not townsize='small',Yes,0.338642996109,0.278374780858,6.1382272299e-30
+not con_handycaps=2 and agegroup='minor' and not townsize='small',Yes,0.338459675466,0.27836608738,7.09587607067e-30
+Hipertension=0 and not dayidx=5 and not townsize='large',Yes,0.30240036379,0.272124177147,1.42973289204e-18
+Alcoholism=0 and not dayidx=3 and not agegroup='advanced',Yes,0.295518852405,0.266575896357,7.53704114969e-16
+not dayidx=5 and not agegroup='advanced' and townsize='medium',Yes,0.320298861811,0.276487650206,4.18602756574e-25
+con_handycaps=0 and agegroup='minor' and not townsize='small',Yes,0.338366005114,0.278422462063,1.33116323151e-29
+SMS_received=0 and lead_time=1 and agegroup='young',Yes,0.408135283364,0.281505026611,4.06108875035e-38
+Hipertension=0 and agegroup='minor' and not townsize='small',Yes,0.338140831414,0.278415642204,1.64531868538e-29
+not dayidx=3 and not con_handycaps=2 and agegroup='minor',Yes,0.328467823373,0.277526088063,2.92211704035e-27
+not dayidx=3 and agegroup='minor',Yes,0.328384199432,0.277526011168,3.27540928011e-27
+Scholarship=0 and SMS_received=0 and agegroup='young',Yes,0.333547489025,0.278050554646,2.13782581165e-28
+Alcoholism=0 and not dayidx=3 and agegroup='minor',Yes,0.328319882612,0.277543954925,4.08522111695e-27
+Gender='F' and Diabetes=0 and not agegroup='advanced',Yes,0.298147573217,0.269758788812,1.4904425196e-16
+Gender='F' and agegroup='minor',Yes,0.342805904263,0.278831556912,3.43834871291e-30
+not dayidx=3 and con_handycaps=0 and agegroup='minor',Yes,0.328442229605,0.277580010849,4.51478429012e-27
+not dayidx=3 and not con_handycaps=1 and agegroup='minor',Yes,0.328358208955,0.277579950487,5.0600871151e-27
+Alcoholism=0 and not dayidx=2 and lead_time=1,Yes,0.323335943618,0.276998843282,1.06343974048e-25
+Scholarship=1 and Hipertension=0 and not dayidx=4,Yes,0.367052706216,0.280210985258,8.04602620967e-34
+Diabetes=0 and not dayidx=3 and agegroup='minor',Yes,0.328247081533,0.277578924155,5.84282270603e-27
+Gender='F' and not con_handycaps=2 and agegroup='minor',Yes,0.342723004695,0.278848304733,4.46067941313e-30
+Scholarship=1 and not dayidx=4 and not agegroup='advanced',Yes,0.35878933654,0.279831582844,1.19670035264e-32
+Hipertension=0 and not dayidx=4 and townsize='medium',Yes,0.327491686888,0.277508049267,9.78160457621e-27
+Hipertension=0 and not dayidx=3 and agegroup='minor',Yes,0.328159441587,0.277587376994,7.00711615677e-27
+Gender='F' and Diabetes=0 and agegroup='minor',Yes,0.342750311591,0.278866580414,5.17912954576e-30
+not dayidx=2 and agegroup='minor',Yes,0.327612681781,0.277532889698,9.92288666876e-27
+Gender='F' and Scholarship=1 and not con_handycaps=2,Yes,0.353940708604,0.279581933557,7.01492698827e-32
+Gender='F' and Scholarship=1 and not agegroup='middle',Yes,0.36975,0.280351825971,5.39170060665e-34
+Gender='F' and not con_handycaps=1 and agegroup='minor',Yes,0.342765986961,0.278877018157,5.64017220607e-30
+Hipertension=0 and Alcoholism=0 and not dayidx=6,Yes,0.295816239124,0.26745464541,1.37721148915e-15
+Gender='F' and lead_time=1 and agegroup='young',Yes,0.365701042874,0.280188664845,2.01298400511e-33
+Diabetes=0 and not dayidx=2 and agegroup='minor',Yes,0.327600253462,0.277555672751,1.19123441759e-26
+Gender='F' and Hipertension=0 and agegroup='minor',Yes,0.342549073818,0.278876569639,7.18689221302e-30
+Gender='F' and Scholarship=1 and not dayidx=7,Yes,0.353748870822,0.279594979236,9.93843571707e-32
+Gender='F' and con_handycaps=0 and agegroup='minor',Yes,0.34268258817,0.2788937502,7.31468893413e-30
+Gender='F' and Scholarship=1,Yes,0.353684971098,0.279599328066,1.11596000863e-31
+not dayidx=2 and not con_handycaps=2 and agegroup='minor',Yes,0.327512892427,0.277566992769,1.45725997016e-26
+not dayidx=2 and not con_handycaps=1 and agegroup='minor',Yes,0.327612821211,0.277582249426,1.42071484123e-26
+con_handycaps=0 and not agegroup='middle' and not townsize='medium',Yes,0.301236557474,0.271930992253,1.24667276089e-17
+Alcoholism=0 and not dayidx=2 and agegroup='minor',Yes,0.327427228349,0.277575468808,1.7417272603e-26
+Gender='F' and Scholarship=1 and con_handycaps=0,Yes,0.354124748491,0.279641397741,1.1762301856e-31
+not dayidx=2 and con_handycaps=0 and agegroup='minor',Yes,0.327512505684,0.277616303775,2.08546125392e-26
+Gender='F' and Scholarship=1 and not con_handycaps=1,Yes,0.353865838055,0.279658778377,1.87300832946e-31
+Hipertension=0 and not dayidx=2 and agegroup='minor',Yes,0.32730069677,0.277608588393,2.62895695932e-26
+not con_handycaps=1 and not agegroup='middle' and not townsize='medium',Yes,0.301101212571,0.272,2.06572425789e-17
+not dayidx=4 and not townsize='small',Yes,0.301633289821,0.2722611208,1.23859261501e-17
+lead_time=2 and con_handycaps=0 and agegroup='young',Yes,0.395587076438,0.281319661168,6.39514744842e-36
+Hipertension=0 and Alcoholism=0 and townsize='medium',Yes,0.319856054191,0.276717694409,3.26434834484e-24
+not dayidx=4 and not agegroup='old' and not townsize='small',Yes,0.301701528817,0.272314713967,1.23177725181e-17
+Gender='F' and Scholarship=1 and Diabetes=0,Yes,0.355772919064,0.279800043334,1.53429558353e-31
+not dayidx=5 and lead_time=2 and not agegroup='middle',Yes,0.358827147837,0.279964896614,6.22420545221e-32
+lead_time=2 and not con_handycaps=1 and agegroup='young',Yes,0.395120031484,0.281332203843,1.13197200248e-35
+con_handycaps=0 and not agegroup='advanced' and not townsize='large',Yes,0.296894772705,0.269139755011,1.33338259634e-15
+Scholarship=0 and not dayidx=4 and lead_time=1,Yes,0.325986180355,0.27754088535,9.75757012584e-26
+Scholarship=1 and not agegroup='advanced' and not townsize='small',Yes,0.371549893843,0.280563124432,2.52968419409e-33
+not con_handycaps=1 and not agegroup='advanced' and not townsize='large',Yes,0.29684614637,0.269147600446,1.55463213752e-15
+Diabetes=0 and not dayidx=5 and not townsize='small',Yes,0.301035158071,0.27217929313,3.91173598234e-17
+not dayidx=4 and not con_handycaps=1 and not townsize='small',Yes,0.301770742287,0.27254282559,2.00444370731e-17
+not dayidx=6 and lead_time=2 and not agegroup='middle',Yes,0.360231164384,0.280112345755,1.09744284669e-31
+not dayidx=4 and not agegroup='advanced' and not townsize='large',Yes,0.301100825619,0.272270950016,4.31051874296e-17
+lead_time=2 and not con_handycaps=2 and agegroup='young',Yes,0.393372319688,0.28135825045,6.38996076027e-35
+Diabetes=0 and lead_time=2 and agegroup='young',Yes,0.393796623479,0.281372155586,6.13157381158e-35
+not dayidx=4 and not con_handycaps=2 and not townsize='small',Yes,0.301428844804,0.272469719811,3.52529617914e-17
+Scholarship=1 and Hipertension=0 and Alcoholism=0,Yes,0.354084135069,0.279836347575,1.22971612765e-30
+lead_time=2 and agegroup='young',Yes,0.392912772586,0.281370799881,1.11649258442e-34
+Scholarship=1 and not dayidx=4 and con_handycaps=0,Yes,0.356248758196,0.279975306737,8.17748914868e-31
+Scholarship=0 and lead_time=2 and not agegroup='middle',Yes,0.354285714286,0.279878596426,1.6689396647e-30
+Hipertension=0 and dayidx=2 and not lead_time=0,Yes,0.361166335321,0.280225417681,2.022391712e-31
+Gender='F' and Scholarship=1 and not dayidx=5,Yes,0.359361702128,0.280140646112,3.51501211796e-31
+Scholarship=1 and Diabetes=0 and not dayidx=4,Yes,0.358014477766,0.280076315911,5.42512593241e-31
+Scholarship=1 and not dayidx=4 and not con_handycaps=2,Yes,0.355559913709,0.279951799039,1.18258844171e-30
+Scholarship=1 and not dayidx=4 and not con_handycaps=1,Yes,0.356023020441,0.279985800059,1.1507893249e-30
+Gender='F' and Hipertension=0 and not con_handycaps=2,Yes,0.298700228078,0.271076950683,6.81301918395e-16
+Scholarship=1 and not dayidx=4,Yes,0.355337904016,0.279962300882,1.657973356e-30
+Scholarship=1 and not lead_time=0 and not agegroup='advanced',Yes,0.402538531278,0.281653899618,3.74263652425e-35
+not dayidx=5 and not agegroup='advanced' and not townsize='large',Yes,0.299233825199,0.271452526888,4.40292191043e-16
+Hipertension=0 and lead_time=2 and agegroup='young',Yes,0.395273023635,0.28147356547,1.47130961757e-34
+Scholarship=1 and Hipertension=0 and not lead_time=0,Yes,0.412690089145,0.281901032081,1.05895303882e-35
+Gender='F' and Hipertension=0 and con_handycaps=0,Yes,0.298828883832,0.27123157957,7.06996563386e-16
+Gender='F' and Hipertension=0 and not dayidx=7,Yes,0.298648871313,0.271113904351,8.43054261563e-16
+Gender='F' and Hipertension=0,Yes,0.298632844671,0.271121489731,8.92793144302e-16
+not dayidx=4 and con_handycaps=0 and not townsize='small',Yes,0.301563108056,0.272748256053,5.66729083182e-17
+Scholarship=1 and Hipertension=0 and not townsize='small',Yes,0.378094059406,0.280977836507,7.46744080097e-33
+Gender='F' and Hipertension=0 and not con_handycaps=1,Yes,0.298760708642,0.271275807933,9.26858146836e-16
+SMS_received=0 and not con_handycaps=2 and agegroup='middle',No,0.256915373882,0.291508370197,1.5737761764e-14
+Gender='F' and Hipertension=0 and not agegroup='old',Yes,0.298599840453,0.271217326363,1.20620539489e-15
+not dayidx=4 and lead_time=1 and not townsize='large',Yes,0.335213634181,0.278733576168,8.90275042719e-27
+SMS_received=0 and not dayidx=3 and agegroup='minor',Yes,0.349789915966,0.279742965874,2.83739203841e-29
+Gender='F' and Hipertension=0 and Diabetes=0,Yes,0.298827470687,0.271406727829,1.06517366282e-15
+not con_handycaps=2 and not agegroup='advanced' and not townsize='large',Yes,0.296306933774,0.269333618569,1.01964623865e-14
+SMS_received=0 and not dayidx=7 and agegroup='middle',No,0.257032723694,0.291489546283,1.95394306387e-14
+not agegroup='advanced' and not townsize='large',Yes,0.296260007169,0.269342100561,1.18188253486e-14
+Alcoholism=0 and lead_time=2 and agegroup='young',Yes,0.391939944686,0.281468713316,1.33829472681e-33
+SMS_received=0 and agegroup='middle',No,0.257110072945,0.291477953043,2.24351047852e-14
+Scholarship=1 and Alcoholism=0 and not agegroup='advanced',Yes,0.34585138822,0.279557211818,2.01123117007e-28
+not dayidx=7 and not agegroup='advanced' and not townsize='large',Yes,0.296248475719,0.269380467774,1.31177853791e-14
+Hipertension=0 and not dayidx=2 and con_handycaps=0,Yes,0.295755384009,0.268854670114,2.03662124797e-14
+Scholarship=0 and Diabetes=0 and not agegroup='advanced',Yes,0.293223546858,0.264090003768,4.98670285043e-14
+SMS_received=0 and lead_time=1 and townsize='medium',Yes,0.410564853556,0.281951233877,1.15512714553e-34
+SMS_received=0 and not agegroup='young' and not townsize='medium',No,0.263331251065,0.292939351577,5.35723206777e-14
+SMS_received=0 and lead_time=2 and not agegroup='old',Yes,0.377223088924,0.281059093706,5.30072499728e-32
+SMS_received=0 and lead_time=1 and not agegroup='minor',Yes,0.354195459033,0.280098204222,2.4586914433e-29
+not dayidx=3 and lead_time=2 and not agegroup='advanced',Yes,0.34779649481,0.279745430095,2.09043112428e-28
+Scholarship=1 and Hipertension=0 and not dayidx=6,Yes,0.359723461195,0.280377693438,5.24328158704e-30
+Gender='F' and not dayidx=5 and agegroup='minor',Yes,0.346229508197,0.279657293497,3.9039788204e-28
+Scholarship=0 and not dayidx=5 and agegroup='minor',Yes,0.327298988926,0.27816563767,1.4737938278e-24
+SMS_received=0 and lead_time=2 and not con_handycaps=1,Yes,0.377275580665,0.28108400108,7.55398740767e-32
+Hipertension=0 and not dayidx=2 and not con_handycaps=1,Yes,0.29567029405,0.268939109543,3.02587598083e-14
+Scholarship=1 and Hipertension=0 and not townsize='large',Yes,0.360517946388,0.280423684774,4.73059002726e-30
+Scholarship=1 and Hipertension=0 and not lead_time=2,Yes,0.354440461967,0.280128383174,2.80531438943e-29
+Scholarship=0 and SMS_received=0 and agegroup='minor',Yes,0.346210751274,0.279676837399,4.88250513184e-28
+not dayidx=5 and lead_time=2 and not agegroup='advanced',Yes,0.343329253366,0.279498198824,1.46473088238e-27
+SMS_received=0 and lead_time=2,Yes,0.376357430965,0.28107499437,1.31397881297e-31
+Scholarship=1 and not dayidx=4 and not agegroup='middle',Yes,0.367277486911,0.28073869834,1.11878521478e-30
+Scholarship=1 and not dayidx=7 and not townsize='small',Yes,0.366554491328,0.280724626696,1.65819035226e-30
+Scholarship=1 and not lead_time=0 and not con_handycaps=2,Yes,0.39795464651,0.281729531363,3.30924094411e-33
+Scholarship=0 and not dayidx=5 and lead_time=1,Yes,0.321499800558,0.277590630618,6.22647481781e-23
+Scholarship=1 and not townsize='small',Yes,0.366459627329,0.280728882421,1.90187113143e-30
+Hipertension=0 and dayidx=2 and not agegroup='middle',Yes,0.336260659285,0.279033741589,3.66021864713e-26
+Scholarship=1 and not con_handycaps=2 and not townsize='small',Yes,0.366485366485,0.280731274728,1.92553295263e-30
+Scholarship=1 and not lead_time=0,Yes,0.397691966267,0.281731409545,4.06536411326e-33
+Scholarship=1 and not lead_time=0 and con_handycaps=0,Yes,0.398469158037,0.281760764418,4.36237798991e-33
+SMS_received=0 and not lead_time=2 and agegroup='young',Yes,0.328652828653,0.2784,1.53272335067e-24
+SMS_received=0 and con_handycaps=0 and agegroup='middle',No,0.25718125315,0.291288284244,6.14987559217e-14
+SMS_received=0 and not lead_time=2 and not agegroup='young',No,0.266897981255,0.29412629104,1.19007423704e-13
+Scholarship=1 and not lead_time=0 and not con_handycaps=1,Yes,0.398202247191,0.28176264367,5.36708891992e-33
+Scholarship=0 and not agegroup='advanced' and not townsize='small',Yes,0.300357753928,0.272775522119,8.72131857331e-16
