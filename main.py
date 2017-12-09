@@ -7,9 +7,9 @@ import statsmodels.stats.proportion as propm
 
 # establish connection
 db = MySQLdb.connect(host="10.233.1.2",
-                     user="nox",
-                     passwd="afj;49",
-                     db="proj3")
+                     user="",
+                     passwd="",
+                     db="")
 curtable = 'preproc'
 
 def rowprint(fetched, prep="", extra=False):
